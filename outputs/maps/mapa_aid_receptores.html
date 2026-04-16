@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AID — INCILIX Incineradora — Caieiras/SP</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; }
+    #map { width: 100%; height: 100vh; }
+    .legend {
+      background: rgba(255,255,255,0.93);
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-size: 13px;
+      line-height: 1.8;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+      min-width: 220px;
+    }
+    .legend h4 { margin: 0 0 6px; font-size: 14px; border-bottom: 1px solid #ccc; padding-bottom: 4px; }
+    .legend-item { display: flex; align-items: center; gap: 8px; }
+    .dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; border: 2px solid #fff; box-shadow: 0 0 2px rgba(0,0,0,.4); }
+    .legend-note { margin-top: 8px; font-size: 11px; color: #666; border-top: 1px solid #ddd; padding-top: 6px; }
+  </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+// ─── Coordenadas ───────────────────────────────────────────────────────────────
+// Chaminé: UTM E 324209.85 / N 7412260.54 — SIRGAS 2000 / Zona 23S
+// Conversão TM inverso (GRS80): lat -23.38998°, lon -46.72014°
+var chimney = [-23.38998, -46.72014];
+
+// RC-01 (receptor crítico declarado): UTM E 324800 / N 7412900
+// Δlat = +639.46/110946 = +0.00576°  |  Δlon = +590.15/102137 = +0.00578°
+var receptor01 = [-23.38422, -46.71436];
+
+// ─── Mapa base ─────────────────────────────────────────────────────────────────
+var map = L.map('map', { center: chimney, zoom: 12 });
+
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  maxZoom: 19
+}).addTo(map);
+
+// ─── AID — círculo 5 km ─────────────────────────────────────────────────────────
+L.circle(chimney, {
+  radius: 5000, color: '#0055cc', weight: 3, opacity: 0.9,
+  fill: true, fillColor: '#4488ff', fillOpacity: 0.06
+}).bindTooltip('<b>AID — 5 000 m</b>', { sticky: true }).addTo(map);
+
+// ─── Raios auxiliares ───────────────────────────────────────────────────────────
+var auxStyle = { color: '#0055cc', weight: 1.5, opacity: 0.5, dashArray: '6 5', fill: false };
+[[3000,'3 000 m'],[1000,'1 000 m'],[200,'200 m'],[100,'100 m']].forEach(function(r) {
+  L.circle(chimney, Object.assign({}, auxStyle, { radius: r[0] }))
+    .bindTooltip('Raio ' + r[1], { sticky: true }).addTo(map);
+});
+
+// ─── Ícone auxiliar ─────────────────────────────────────────────────────────────
+function dotIcon(color) {
+  return L.divIcon({
+    className: '',
+    html: '<div style="width:14px;height:14px;background:' + color + ';border:2px solid #fff;border-radius:50%;box-shadow:0 0 4px rgba(0,0,0,.5)"></div>',
+    iconSize: [14,14], iconAnchor: [7,7]
+  });
+}
+
+// ─── Marcador da chaminé ────────────────────────────────────────────────────────
+L.marker(chimney, { icon: dotIcon('#d62728') })
+  .bindPopup('<b>Chaminé — INCILIX</b><br>UTM E 324 209,85 / N 7 412 260,54<br>Lat: −23,38998° S | Lon: −46,72014° W<br>H = 17 m | Ø = 0,82 m<br>Datum: SIRGAS 2000 / Zona 23S')
+  .bindTooltip('Chaminé INCILIX').addTo(map);
+
+// ─── Receptor crítico declarado (RC-01) ─────────────────────────────────────────
+L.marker(receptor01, { icon: dotIcon('#ff7f0e') })
+  .bindPopup(
+    '<b>RC-01 — Receptor crítico declarado</b><br>' +
+    'Unidade de saúde / área institucional<br>' +
+    'UTM E 324 800 / N 7 412 900<br>' +
+    'Lat: −23,38422° S | Lon: −46,71436° W<br>' +
+    '<hr style="margin:4px 0">' +
+    '<i>Distância declarada no estudo: ~1 300 m</i><br>' +
+    '<i>Distância calculada (UTM): ~870 m</i><br>' +
+    '<small>⚠ Inconsistência — verificar coordenadas</small><br>' +
+    '<b>Fonte:</b> PROMPT_PRINCIPAL_EXECUCAO.md'
+  )
+  .bindTooltip('RC-01 — Receptor crítico (declarado)').addTo(map);
+
+// ─── Legenda ────────────────────────────────────────────────────────────────────
+var legend = L.control({ position: 'bottomright' });
+legend.onAdd = function() {
+  var d = L.DomUtil.create('div', 'legend');
+  d.innerHTML =
+    '<h4>INCILIX — AID / Caieiras-SP</h4>' +
+    '<div class="legend-item"><div class="dot" style="background:#d62728"></div> Fonte / Chaminé</div>' +
+    '<div class="legend-item"><div class="dot" style="background:#ff7f0e"></div> RC-01 Receptor crítico (declarado)</div>' +
+    '<div class="legend-item"><svg width="24" height="10"><line x1="0" y1="5" x2="24" y2="5" stroke="#0055cc" stroke-width="3"/></svg> AID — 5 000 m</div>' +
+    '<div class="legend-item"><svg width="24" height="10"><line x1="0" y1="5" x2="24" y2="5" stroke="#0055cc" stroke-width="1.5" stroke-dasharray="5 4" opacity="0.6"/></svg> Raios auxiliares (100 / 200 m / 1 / 3 km)</div>' +
+    '<div class="legend-note">' +
+      'Datum: SIRGAS 2000 / UTM Zona 23S<br>' +
+      'Estado: preliminar — receptores reais pendentes<br>' +
+      '© OpenStreetMap contributors' +
+    '</div>';
+  return d;
+};
+legend.addTo(map);
+</script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+id,nome,tipo,utm_e,utm_n,fonte_dado,observacao
+R001,UBS Exemplo,unidade_saude,324800,7412900,estudo_declarado,receptor critico declarado
+R002,Escola Exemplo,escola,325100,7413300,exemplo,substituir por dado real

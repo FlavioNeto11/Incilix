@@ -1,0 +1,2 @@
+id,nome,tipo,utm_e,utm_n,distancia_fonte_m,fonte_dado,observacao
+RC-01,Unidade de saúde/área institucional (declarado no estudo),saude,324800,7412900,1300,declarado_no_estudo,Receptor crítico conforme PROMPT_PRINCIPAL_EXECUCAO.md; distância calculada pelas coordenadas UTM é ~870 m — verificar coordenadas antes do protocolo definitivo

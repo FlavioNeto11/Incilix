@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mapa de Isoconcentracao - INCILIX (Preliminar)</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; }
+    #map { width: 100%; height: 100vh; }
+    .legend {
+      background: rgba(255,255,255,0.95);
+      padding: 10px 12px;
+      border-radius: 8px;
+      font-size: 12px;
+      line-height: 1.6;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      min-width: 280px;
+    }
+    .legend h4 { margin: 0 0 6px; font-size: 13px; }
+    .chip { display: inline-block; width: 14px; height: 10px; margin-right: 6px; vertical-align: middle; border: 1px solid #333; }
+    .note { margin-top: 6px; padding-top: 6px; border-top: 1px solid #ddd; color: #555; }
+  </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+// Dados rastreaveis do estudo/processo
+const source = { lat: -23.38998, lon: -46.72014, utmE: 324209.85, utmN: 7412260.54 };
+const receptorCritico = { lat: -23.38422, lon: -46.71436, utmE: 324800, utmN: 7412900, id: 'RC-01' };
+const concentracaoReferenciaPg = 41; // de concentracoes_receptores.example.csv (NAO definitivo)
+
+const map = L.map('map').setView([source.lat, source.lon], 13);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+  attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+function markerIcon(color) {
+  return L.divIcon({
+    className: '',
+    html: '<div style="width:14px;height:14px;border-radius:50%;background:' + color + ';border:2px solid #fff;box-shadow:0 0 4px rgba(0,0,0,.5)"></div>',
+    iconSize: [14, 14],
+    iconAnchor: [7, 7]
+  });
+}
+
+// 1) Localizacao da fonte emissora
+L.marker([source.lat, source.lon], { icon: markerIcon('#d73027') }).addTo(map)
+  .bindPopup('<b>Fonte emissora (chamine)</b><br>UTM E 324209.85 / N 7412260.54<br>SIRGAS 2000 / UTM 23S');
+
+// 2) Identificacao do receptor critico
+L.marker([receptorCritico.lat, receptorCritico.lon], { icon: markerIcon('#f46d43') }).addTo(map)
+  .bindPopup('<b>Receptor critico RC-01</b><br>UTM E 324800 / N 7412900<br>Fonte: estudo declarado');
+
+// 3) Area de influencia direta (AID)
+L.circle([source.lat, source.lon], {
+  radius: 5000,
+  color: '#2b8cbe',
+  weight: 3,
+  fillColor: '#74a9cf',
+  fillOpacity: 0.07
+}).addTo(map).bindTooltip('AID 5 km');
+
+// 4) Pluma de dispersao atmosferica (representacao preliminar orientada para RC-01)
+function bearingDegrees(lat1, lon1, lat2, lon2) {
+  const toRad = (d) => d * Math.PI / 180;
+  const toDeg = (r) => r * 180 / Math.PI;
+  const y = Math.sin(toRad(lon2 - lon1)) * Math.cos(toRad(lat2));
+  const x = Math.cos(toRad(lat1)) * Math.sin(toRad(lat2)) -
+            Math.sin(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.cos(toRad(lon2 - lon1));
+  return (toDeg(Math.atan2(y, x)) + 360) % 360;
+}
+
+function destinationPoint(lat, lon, bearingDeg, distanceM) {
+  const R = 6371000;
+  const br = bearingDeg * Math.PI / 180;
+  const lat1 = lat * Math.PI / 180;
+  const lon1 = lon * Math.PI / 180;
+  const lat2 = Math.asin(Math.sin(lat1) * Math.cos(distanceM / R) + Math.cos(lat1) * Math.sin(distanceM / R) * Math.cos(br));
+  const lon2 = lon1 + Math.atan2(Math.sin(br) * Math.sin(distanceM / R) * Math.cos(lat1), Math.cos(distanceM / R) - Math.sin(lat1) * Math.sin(lat2));
+  return [lat2 * 180 / Math.PI, lon2 * 180 / Math.PI];
+}
+
+const axisBearing = bearingDegrees(source.lat, source.lon, receptorCritico.lat, receptorCritico.lon);
+const plumeLen = 3200;
+const halfAngle = 22;
+const p0 = [source.lat, source.lon];
+const p1 = destinationPoint(source.lat, source.lon, axisBearing - halfAngle, plumeLen);
+const p2 = destinationPoint(source.lat, source.lon, axisBearing + halfAngle, plumeLen);
+const plume = L.polygon([p0, p1, p2], {
+  color: '#756bb1',
+  weight: 2,
+  fillColor: '#bcbddc',
+  fillOpacity: 0.25
+}).addTo(map).bindPopup('<b>Pluma de dispersao atmosferica</b><br>Representacao preliminar orientada para RC-01.<br>Sem uso de vento real AERMET nesta versao.');
+
+// 5) Curvas de isoconcentracao (preliminares por classes relativas ao ponto de referencia)
+function ellipsePoints(centerLat, centerLon, majorM, minorM, rotationDeg, pointsCount) {
+  const pts = [];
+  const rot = rotationDeg * Math.PI / 180;
+  const metersPerDegLat = 111320;
+  const metersPerDegLon = 111320 * Math.cos(centerLat * Math.PI / 180);
+  for (let i = 0; i <= pointsCount; i++) {
+    const t = (i / pointsCount) * 2 * Math.PI;
+    const x = majorM * Math.cos(t);
+    const y = minorM * Math.sin(t);
+    const xr = x * Math.cos(rot) - y * Math.sin(rot);
+    const yr = x * Math.sin(rot) + y * Math.cos(rot);
+    const lat = centerLat + (yr / metersPerDegLat);
+    const lon = centerLon + (xr / metersPerDegLon);
+    pts.push([lat, lon]);
+  }
+  return pts;
+}
+
+const centerLat = (source.lat + receptorCritico.lat) / 2;
+const centerLon = (source.lon + receptorCritico.lon) / 2;
+const curveStyles = [
+  { label: '~10 pg TEQ/m3', color: '#41ab5d', major: 2200, minor: 900 },
+  { label: '~20 pg TEQ/m3', color: '#fe9929', major: 1700, minor: 700 },
+  { label: '~30 pg TEQ/m3', color: '#ef6548', major: 1200, minor: 500 },
+  { label: '~41 pg TEQ/m3 (referencia)', color: '#99000d', major: 800, minor: 320 }
+];
+
+curveStyles.forEach((c) => {
+  L.polygon(ellipsePoints(centerLat, centerLon, c.major, c.minor, axisBearing, 90), {
+    color: c.color,
+    weight: 2,
+    fillColor: c.color,
+    fillOpacity: 0.08
+  }).addTo(map).bindTooltip('Curva ' + c.label);
+});
+
+// Ajuste de enquadramento
+const group = L.featureGroup([
+  L.marker([source.lat, source.lon]),
+  L.marker([receptorCritico.lat, receptorCritico.lon]),
+  plume
+]);
+map.fitBounds(group.getBounds().pad(0.35));
+
+// Legenda e rastreabilidade
+const legend = L.control({ position: 'bottomright' });
+legend.onAdd = function() {
+  const div = L.DomUtil.create('div', 'legend');
+  div.innerHTML =
+    '<h4>Mapa de Isoconcentracao (Preliminar)</h4>' +
+    '<div><span class="chip" style="background:#d73027"></span>Fonte emissora</div>' +
+    '<div><span class="chip" style="background:#f46d43"></span>Receptor critico RC-01</div>' +
+    '<div><span class="chip" style="background:#bcbddc"></span>Pluma de dispersao atmosferica</div>' +
+    '<div><span class="chip" style="background:#74a9cf"></span>AID (5 km)</div>' +
+    '<div><span class="chip" style="background:#41ab5d"></span>Curvas de isoconcentracao</div>' +
+    '<div class="note"><b>Base cartografica:</b> OpenStreetMap (EPSG:3857)<br>' +
+    '<b>Referencia espacial:</b> SIRGAS 2000 / UTM 23S (dados de entrada)<br>' +
+    '<b>Rastreabilidade:</b> ESTUDO_DE_RISCO_A_SAUDE...pdf, Pt 035 Incilix .pdf, concentracoes_receptores.example.csv<br>' +
+    '<b>Observacao:</b> Mapa preliminar. Curvas/pluma nao substituem resultado numerico AERMOD real.</div>';
+  return div;
+};
+legend.addTo(map);
+</script>
+</body>
+</html>
