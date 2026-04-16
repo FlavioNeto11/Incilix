@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Validação Técnica — Plano de Gestão de Emissões</title>
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --text: #1f2a37;
+      --muted: #5b6878;
+      --line: #d9e1ea;
+      --accent: #0b5cab;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+      color: var(--text);
+      background: linear-gradient(180deg, #eef3f9 0%, var(--bg) 100%);
+    }
+    .wrap {
+      max-width: 980px;
+      margin: 32px auto;
+      padding: 0 16px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 28px;
+      box-shadow: 0 6px 24px rgba(12, 35, 64, 0.08);
+    }
+    h1, h2, h3 { line-height: 1.25; }
+    h1 { font-size: 30px; margin: 0 0 12px; color: #103b69; }
+    h2 { font-size: 22px; margin-top: 28px; color: var(--accent); border-top: 1px solid var(--line); padding-top: 16px; }
+    h3 { font-size: 18px; margin-top: 20px; }
+    p, li { font-size: 15px; line-height: 1.65; }
+    ul { padding-left: 22px; }
+    code { background: #eef3f8; padding: 2px 6px; border-radius: 6px; }
+    table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 14px; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; }
+    th { background: #f0f5fb; }
+    .meta { color: var(--muted); font-size: 13px; margin-bottom: 16px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="meta">Gerado automaticamente a partir de outputs/logs/VALIDACAO_PLANO_GESTAO_EMISSOES_FINAL.md</div>
+      <h1>VALIDACAO TECNICA — PLANO DE GESTAO DE EMISSOES FINAL</h1>
+<p>Data: 2026-04-15</p>
+<p>Documento avaliado: PLANO DE GESTAO DE EMISSOES FINAL.pdf</p>
+<p>Base de evidencia textual: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt</p>
+<h2>Resultado</h2>
+<p>APROVADO COM RESSALVAS (documento de plano de emissao tecnicamente estruturado, com pendencias de consistencia para protocolo definitivo sem diligencia).</p>
+<h2>Itens conformes</h2>
+<p>1. Metodologia de conversao de limite (mg/Nm3) para emissao (kg/h) esta correta.</p>
+<ul>
+<li>Evidencia: Emissao (kg/h) = limite x vazao / 1.000.000 em outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:914.</li>
+</ul>
+<p>2. Regime operacional anual adotado para t/ano esta coerente com 20 h/dia e 300 dias/ano.</p>
+<ul>
+<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:915.</li>
+</ul>
+<p>3. Vazao de referencia utilizada (12.000 Nm3/h) esta explicita e alinhada ao estudo-base.</p>
+<ul>
+<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:917.</li>
+</ul>
+<p>4. Quadro de estimativas de emissao apresenta MP, SOx e NOx com valores fechados em kg/h e t/ano.</p>
+<ul>
+<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:925.</li>
+<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:926.</li>
+<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:927.</li>
+<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:928.</li>
+</ul>
+<p>5. Limites regulatorios listados incluem Dioxinas/Furanos &lt; 0,14 ng/Nm3 e classes de metais.</p>
+<ul>
+<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:1153.</li>
+<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:1155.</li>
+<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:1156.</li>
+<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:1157.</li>
+</ul>
+<h2>Ressalvas e nao conformidades</h2>
+<p>1. ALTA — HCT/HCTNM sem limite regulatorio explicito no quadro principal.</p>
+<ul>
+<li>O quadro de estimativa apresenta HCT com limite &quot;—&quot; e emissao estimada (0,50 kg/h; 3,00 t/ano), sem demonstrar base normativa numerica.</li>
+<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:929.</li>
+<li>Risco: fragilidade de auditabilidade perante CETESB para parametro de hidrocarbonetos.</li>
+</ul>
+<p>2. ALTA — Inconsistencia com a base de calculo do pipeline atual (arquivo oficial de trabalho ainda indica MP/SOx/NOx/HCTNM como pendente).</p>
+<ul>
+<li>Evidencia: outputs/tables/emissoes_calculadas.csv:3.</li>
+<li>Evidencia: outputs/tables/emissoes_calculadas.csv:4.</li>
+<li>Evidencia: outputs/tables/emissoes_calculadas.csv:5.</li>
+<li>Evidencia: outputs/tables/emissoes_calculadas.csv:6.</li>
+<li>Risco: protocolo com documentos divergentes no mesmo processo.</li>
+</ul>
+<p>3. MEDIA — Tabela de &quot;Composto Interesse / Taxa de Alimentacao&quot; usa unidade kg/h para &quot;Dioxinas e furanos&quot; com valor 8,0, o que exige esclarecimento de escopo (alimentacao de teste x emissao de chamine).</p>
+<ul>
+<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:1216.</li>
+<li>Risco: interpretacao equivocada por auditor como taxa de emissao.</li>
+</ul>
+<p>4. MEDIA — Documento nao apresenta modelagem de dispersao (AERMOD/AERMET/AERMAP) nem validacao de RII.</p>
+<ul>
+<li>Observacao: para Plano de Gestao de Emissoes isso pode ser escopo externo, mas para fechamento global do protocolo CETESB segue pendencia no processo.</li>
+<li>Evidencia indireta: ausencia de ocorrencias de AERMOD/AERMET/AERMAP/RII na extracao textual.</li>
+</ul>
+<h2>Recomendacoes objetivas (antes do protocolo)</h2>
+<p>1. Inserir base normativa numerica para HCTNM (ou retirar estimativa e marcar como pendente formal), com referencia do Parecer Tecnico aplicavel.</p>
+<p>2. Harmonizar os arquivos de trabalho do processo: atualizar limites em data/input/limites-emissao/limites.csv e recalcular outputs/tables/emissoes_calculadas.csv para eliminar divergencias.</p>
+<p>3. Rotular explicitamente a tabela de &quot;Taxa de Alimentacao&quot; como ensaio de queima (nao emissao de chamine), com nota de nao comparabilidade direta com limites de emissao.</p>
+<p>4. Manter o Plano como anexo de emissao e preservar em documento separado a validacao de dispersao/RII para fechamento regulatorio final.</p>
+<h2>Decisao tecnica desta validacao</h2>
+<ul>
+<li>Documento de Plano: APROVADO COM RESSALVAS.</li>
+<li>Uso para protocolo definitivo sem ajustes: NAO RECOMENDADO.</li>
+</ul>
+    </div>
+  </div>
+</body>
+</html>

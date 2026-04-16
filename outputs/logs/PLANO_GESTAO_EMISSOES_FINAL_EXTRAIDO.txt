@@ -1,0 +1,1613 @@
+
+
+===== PAGINA 1 =====
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PGEG 
+PLANO DE GESTÃO DE EMISSÕES GASOSAS E DE 
+CINZAS E ESCÓRIAS GERADAS POR INCINERADOR 
+ 
+Nº 000897853INCILIX.30.06/2025 – RASR-PGEG 
+(REFERENTE EQUIPAMENTO INSTALADO E EXISTENTE) 
+ 
+ 
+ 
+PROPRIETÁRIO: INCILIX INCINERADORA LTDA 
+ 
+LOCAL: Rua João Paulo I, nº 315 – Parque Industrial Araucária 
+Caieiras – SP – CEP: 07747-250 
+ÁREA DE OPERAÇÃO: 13.331,15 m² 
+. 
+ 
+ 
+ 
+ 
+Mairipora / SP 
+Junho/2025 
+
+
+===== PAGINA 2 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+SUMÁRIO 
+1. VINCULOS JURIDICOS ........................................................................................................... 5 
+Execução e Responsabilidade Técnica pelo Laudo ..................................................................................... 5 
+Proprietários do imóvel ............................................................................................................................. 5 
+Área de Intervenção (Propriedade) ........................................................................................................... 5 
+Empresa contratada ................................................................................................................................. 5 
+2. OBJETIVOS ............................................................................................................................ 6 
+3. METODOLOGIA .................................................................................................................... 7 
+4. INTRODUÇÃO ....................................................................................................................... 8 
+5. EMISSÃO DE POLUENTES ATMOSFÉRICOS ............................................................................ 9 
+5.1. Cinzas Volantes ou Material Particulado (MP) ...................................................................... 9 
+5.2. Cinzas de Fundo ou de Grelha ............................................................................................ 10 
+5.3. Lama ................................................................................................................................... 10 
+5.4. Compostos Clorados ........................................................................................................... 10 
+5.5. Metais pesados .................................................................................................................. 11 
+5.6. Gases SULFUROSOS (SOx) ................................................................................................... 12 
+5.7. Monóxido de carbono (CO) ................................................................................................ 12 
+5.8. Óxidos de nitrogênio (NO e NO2) ....................................................................................... 13 
+5.9. Dioxinas e furanos .............................................................................................................. 13 
+6. SISTEMA OPERACIONAL ..................................................................................................... 15 
+6.1. Padrões nacionais de qualidade do ar sengundo a Resolução CONAMA 03/90.................. 15 
+6.1.1. Material particulado (MP) .................................................................................................. 15 
+6.1.2. Partículas Totais em Suspensão (PTS) ................................................................................. 16 
+6.1.3. Partículas Inaláveis (MP10) ................................................................................................. 16 
+6.1.4. Fumaça ............................................................................................................................... 16 
+6.1.5. Dióxido de enxofre (SO2) .................................................................................................... 17 
+6.1.6. Óxido de nitrogênio (NOx) .................................................................................................. 17 
+6.1.7. Monóxido de carbono (CO) ................................................................................................ 17 
+6.1.8. Metais pesados .................................................................................................................. 18 
+7. PRINCIPAIS CONDIÇÕES DE PROGRESSO ............................................................................ 19 
+8. DESCRIÇÃO DO PROCESSO DE INCINERAÇÃO ..................................................................... 20 
+8.1. Processo de incineração ..................................................................................................... 20 
+8.2. Tratamento de efluentes .................................................................................................... 24 
+Página 2 
+
+===== PAGINA 3 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+8.3. Inertização de Cinzas e Escórias .......................................................................................... 24 
+9. ESTIMATIVAS DE EMISSÕES DE EFLUENTES ATMOSFÉRICOS .............................................. 27 
+9.1. Resultados .......................................................................................................................... 28 
+9.2. Discussão ............................................................................................................................ 29 
+10. DETALHAMENTO DO TESTE DE EFICIÊNCIA ........................................................................ 31 
+10.1. Teste de Eficiência .............................................................................................................. 31 
+10.2. Teste do Sistema de Segurança .......................................................................................... 31 
+10.3. Parâmetros monitorados e reagentes utilizados no teste .................................................. 33 
+10.4. Preparo do Resíduo Padronizado ....................................................................................... 34 
+10.5. Execução do teste de queima ............................................................................................ 35 
+11. Apresentação dos Resultados e Diretrizes Operacionais ................................................... 37 
+12. CONCLUSÃO ....................................................................................................................... 39 
+13. GARANTIA, ASSINATURA E APROVAÇÃO ............................................................................ 40 
+14. REFERENCIA BIBLIOGRAFICAS............................................................................................. 41 
+15. ANEXOS .............................................................................................................................. 42 
+15.1.1. ART – ATESTADO DE RESPONSABILIDADE TÉCNICA ............................................................ 42 
+15.1.2. PLANTAS E DOCUMENTOS DIVERSOS ................................................................................. 43 
+Página 3 
+
+===== PAGINA 4 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+INDICE DE FIGURAS 
+Figura 1: Elevação sem escala do sistema de incineração (Fonte: Acervo particular – RM 
+Consultoria) .......................................................................................................................................... 21 
+INDICE DE QUADROS E TABELAS 
+Quadro 1: Equipamentos de composição da planta do incinerador da INCILIX .................................... 21 
+Quadro 2: Apresentação de estimativas de emissões gasosas nas condições experimentais expostas 
+neste plano .......................................................................................................................................... 29 
+Quadro 3: Tecnologias de abatimento de emissões atmosféricas ........................................................ 29 
+Quadro 4: Parâmetros de emissão monitorados e reagentes utilizados no teste ................................ 34 
+Quadro 5: Limites de Emissões Atmosféricas ....................................................................................... 35 
+Quadro 6: Taxas previstas de alimentação dos parâmetros de interesse ............................................. 37 
+INDICE DE FOTOS 
+Foto 1:Imagem do Ciclone no Sistema de Tratamento de Emissões Gasosas ...................................... 44 
+Foto 2: Imagem do Filtro de Carvão ativado no sistema de tratamento de emissões gasosas.............. 45 
+Foto 3: Imagem do compartimento de Filtro de Manga e exaustor no sistema de tratamento de 
+emissões gasosas. ................................................................................................................................ 46 
+Foto 4: Imagem Fotográfica dos chuveiros do resfriador no sistema de tratamento de emissões 
+gasosas ................................................................................................................................................. 47 
+Foto 5: Imagem do Filtro de Manga e exaustor no sistema de tratamento de emissões gasosas ......... 48 
+Foto 6: Imagem do Filtro de Cal hidratado e ciclone no sistema de tratamento de emissões gasosas. 
+. ............................................................................................................................................................ 49 
+Página 4 
+
+===== PAGINA 5 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+1. VÍNCULOS JURIDICOS 
+Execução e Responsabilidade Técnica pelo Laudo: 
+Engenheiro Responsável: Rogerio Alves de Sousa Reis 
+Bacharel em Quimica – CRQSP: 04200667 
+CPF: 157.586.478-96 
+Endereço: Rua orion, 404 
+Jardim do Colégio Embu das Artes 
+Cep 06815340 
+ 
+ART nº 1285/2025 
+ 
+Proprietários do imóvel: 
+ 
+Proprietário (100%): INCILIX INCINERADORA LTDA - CNPJ nº: 33.470.575/0001-27 
+Endereço: Rua João Paulo I, nº 315 – Parque Industrial - 
+Araucária - Caieiras – SP – CEP: 07747-250 
+Denominação: 38.22-0-00 - Tratamento e disposição de resíduos perigosos 
+Responsável Legal: RONEY PROSPERO e ALEXANDRE PROSPERO 
+Área de Intervenção (Propriedade): 
+Proprietário: GERSON MOREIRA ROMERO – CPF. 038.888.338-33 
+Localização: Rua João Paulo I, nº 315 – Parque Industrial 
+Araucária - Caieiras – SP – CEP: 07747-250 
+Insc. Imobiliária: 3431.1627.2000.100000 
+Área Total da Propriedade: 13.331,15 m² 
+Área Construída: 384,00 m² (Interno ao empreendimento) 
+Coordenadas Geográficas: 324209.85 m E, 7412260.54 m S - Datum Horizontal: SIRGAS 2000 / 
+UTM Zona 23S 
+ 
+Empresa contratada: 
+ 
+Razão Social: RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGÓCIOS LTDA 
+CNPJ: nº 29.128.192/0001-06 CREA-SP: 2601043 
+Endereço: Av Paulista – nº1471- Conj 1110 – Bela Vista – SP 
+Contato: 11-9 75954015 - e-mail: contatormambiental@gmail.com 
+Página 5 
+
+===== PAGINA 6 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+2. OBJETIVOS 
+ 
+ 
+O presente Plano de Gestão de Emissões Gasosas e de Cinzas e Escórias tem como objetivo estabelecer os 
+critérios técnicos, operacionais e de controle ambiental associ ados à operação da unidade de incineração 
+de resíduos de serviços de saúde da INCILIX Incineradora Ltda. 
+O plano contempla a caracterização das fontes de emissão, a descrição dos sistemas de controle ambiental, 
+a definição dos parâmetros operacionais críti cos e a avaliação da eficiência dos sistemas de tratamento de 
+efluentes gasosos, assegurando o atendimento aos limites de emissão estabelecidos pela legislação 
+ambiental vigente e às diretrizes da CETESB 
+ 
+O presente plano foi revisado em atendimento às exigências técnicas constantes dos Pareceres Técnicos nº 
+010/25/IAA/IARS e nº 035/2026/IAA, especialmente no que se refere à metodologia de estimativa de 
+emissões atmosféricas, passando a adotar como bas e os limites de emissão aplicáveis ao empreendimento 
+e a vazão nominal da chaminé, conforme requerido no processo de licenciamento ambiental.
+Página 6 
+
+===== PAGINA 7 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+3. METODOLOGIA 
+ 
+ 
+O presente Plano de Gestão de Emissõ es foi elaborado com base na análise técnica do processo de 
+incineração de resíduos de serviços de saúde, considerando as características operacionais da unidade, os 
+sistemas de controle ambiental implantados e os limites de emissão estabelecidos na legisl ação ambiental 
+vigente. 
+A metodologia adotada contemplou a identificação das fontes de emissão, a caracterização dos poluentes 
+gerados no processo de incineração, a avaliação dos sistemas de tratamento de efluentes gasosos e a 
+definição de parâmetros operacionais críticos para o controle das emissões atmosféricas. 
+Foram consideradas, ainda, as diretrizes estabelecidas pela CETESB, pela Resolução CONAMA nº 316/2002  
+e pelo Decreto Estadual nº 59.113/2013, assegurando que os critérios adotados estejam alinhado s com o 
+processo de licenciamento ambiental do empreendimento.  As estimativas de emissões atmosféricas foram 
+revisadas, deixando de utilizar fatores e emissão de literatura e passando a ser fundamentadas diretamente 
+nos limites estabelecidos no processo de  licenciamento ambiental, conforme orientações da CETESB.
+Página 7 
+
+===== PAGINA 8 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+4. INTRODUÇÃO 
+ 
+ 
+O presente documento apresenta à CETESB o Plano de Gestão de Emissões Gasosas e de Cinzas e Escórias 
+da unidade de incineração de resíduos de serviços de saúde (RSS) da empresa I NCILIX Incineradora Ltda., 
+localizada no município de Caieiras/SP. 
+Este plano tem por finalidade estabelecer os critérios técnicos e operacionais relacionados ao controle das 
+emissões atmosféricas decorrentes do processo de incineração, contemplando a cara cterização das fontes 
+emissoras, os principais poluentes gerados, os sistemas de tratamento de efluentes gasosos e as condições 
+operacionais necessárias para garantir o atendimento aos limites de emissão estabelecidos na legislação 
+ambiental vigente. 
+Adicionalmente, o presente documento apresenta a estimativa das emissões atmosféricas associadas à 
+operação do empreendimento, com base em parâmetros técnicos e normativos, assegurando a coerência 
+com os estudos ambientais apresentados no âmbito do processo de licenciamento, em especial o Estudo  
+de Risco à Saúde Humana (ERSH). 
+O plano foi elaborado em conformidade com as diretrizes estabelecidas na Resolução CONAMA nº 
+316/2002, no Decreto Estadual nº 59.113/2013 e demais normas técnicas aplicáveis, visando garan tir a 
+operação ambientalmente adequada do empreendimento e a proteção da saúde pública e do meio 
+ambiente. 
+Página 8 
+
+===== PAGINA 9 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+5. EMISSÃO DE POLUENTES ATMOSFÉRICOS 
+ 
+O controle das emissões atmosféricas do empreendimento é estruturado com foco nos 
+poluentes críticos associados a o processo de incineração de resíduos de serviços de 
+saúde, com destaque para material particulado, gases ácidos, metais pesados e 
+compostos orgânicos persistentes, especialmente dioxinas e furanos. 
+Entende-se como poluente qualquer forma de matéria; sólid a, líquida ou gasosa e de 
+energia que pode causar danos ao meio ambiente, ou seja, poluição. Os efeitos causados 
+pela poluição podem ocorrer em nível local, regional ou global, manifestando-se na saúde 
+e bem -estar da população, na fauna, na flora, nas água s etc. O desenvolvimento 
+tecnológico tem possibilitado o surgimento de novos produtos, como pilhas elétricas, 
+plásticos, tintas, solventes etc., que embora inofensivos nas condições de uso para as 
+quais foram desenvolvidos, podem liberar ou formar componen tes poluentes em 
+processo de incineração. O processo de incineração ideal deveria gerar apenas três 
+produtos: dióxido de carbono (CO2), água e cinzas. 
+Os dois primeiros são os produtos da combustão completa do material orgânico presente 
+em resíduos sólidos  com o oxigênio do ar, e, o último é decorrente da presença de 
+materiais não combustíveis. Porém, devido à presença de alguns elementos nos resíduos, 
+podem-se formar ou volatilizar compostos, como óxidos de enxofre, óxidos de nitrogênio, 
+ácido clorídrico, cloretos metálicos etc., que se lançados diretamente na atmosfera, 
+causam poluição atmosférica. 
+O processo de incineração, em geral, apresenta cinco pontos de geração de poluentes: 
+cinzas de fundo, cinzas volantes que são arrastadas junto com os gases, águ a de limpeza 
+dos gases, lamas do tratamento das águas e os próprios gases. 
+ 
+5.1. Cinzas Volantes ou Material Particulado (MP) 
+ 
+O material particulado, em geral, é formado por compostos orgânicos sólidos não 
+queimados e compostos inorgânicos. Tanto a parte orgânica como a inorgânica pode ser 
+originada a partir de arraste de finos de grelha ou de condensação ou polimerização de 
+vapores liberados na grelha. Quando se emprega boa prática de combustão, o arraste de 
+ina 9 
+
+===== PAGINA 10 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+fração orgânica é mínimo, pois a maior parte é que imada na região acima da grelha e 
+convertida a CO2 e H2O. Quando isto não ocorre, os componentes orgânicos voláteis 
+liberados na grelha podem se polimerizar e formar partículas microscópicas, constituídas 
+principalmente de carbono, denominadas fuligem. Estas partículas, uma vez não 
+
+===== PAGINA 11 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+consumidas na região de altas temperaturas, passam incólumes pelo incinerador, saindo 
+com os gases de combustão. Por serem muito finas, não são coletadas em sistemas de 
+despoeiramento primários, como ciclones e chicanas. Para re tenção deste material 
+utilizam-se, normalmente, filtros eletrostáticos e filtros de tecidos. Partículas com 
+elevado teor de carbono e de dimensões maiores também podem estar presentes nos 
+gases de combustão, devido ao seu arraste pelo ar de combustão injet ado sob a grelha. 
+Parte deste material se deposita dentro do próprio incinerador e o restante sai com os 
+gases de combustão, para o sistema de limpeza de gases. 
+ 
+5.2. Cinzas de Fundo ou de Grelha 
+ 
+As cinzas de fundo ou de grelha são compostas principalmente por materiais inorgânicos 
+presentes nos resíduos, como metais e vidros fundidos, e de matéria orgânica não 
+queimada. Em um incinerador bem projetado e operado, a maior parte dessas cinzas de 
+fundo fica depositada sobre a grelha e uma parcela muito pequena pod e ser arrastada 
+junto com o ar de combustão insuflado sob a grelha. 
+ 
+5.3. Lama 
+ 
+As lamas geradas em uma unidade de incineração são provenientes dos sistemas de 
+tratamento de efluentes líquidos do sistema de limpeza dos gases de combustão. Elas 
+podem conter matéria orgânica, halogêneos e metais. 
+ 
+5.4. Compostos Clorados 
+ 
+O cloro presente em resíduos sólidos pode estar na forma inorgânica, por exemplo, sal de 
+cozinha, ou orgânica, em plásticos do tipo PVC. Os plásticos contendo cloro, ao serem 
+incinerados, liberam ácido clorídrico (HCl) e cloro (Cl2), além de gás carbônico e água. O 
+Cl2 e o HCl são extremamente corrosivos nas temperaturas em que são formados, e 
+podem provocar ataques sérios aos refratários e superfícies metálicas no interior do 
+incinerador. A ação corrosiva desses gases aumenta muito com a temperatura, o que tem 
+limitado o superaquecimento do vapor a temperaturas pouco acima de 400°C, resultando 
+Página 10 
+
+===== PAGINA 12 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+na baixa eficiência do ciclo de geração de potência de usina de incineração. Estes 
+compostos clorados, além disso, na região dos trocadores de calor (faixa de temperatura 
+de 200 a 600°C), ao entrar em contato com compostos orgânicos não queimados e na 
+presença de metais catalisadores como o cobre, podem levar à formação de dioxinas e 
+furanos. Na ausência de um o u mais destes componentes, a taxa de formação destes 
+compostos é bastante reduzida. Na região de baixas temperaturas e de recuperação de 
+calor, o HCl pode formar soluções aquosas ácidas, que se depositam na superfície dos 
+trocadores de calor, provocando corrosão intensa dos mesmos. 
+ 
+5.5. Metais pesados 
+ 
+Classificados como poluentes, englobando um grupo muito heterogêneo de metais, 
+semimetais e mesmo não metais como o selênio. Na lista de metais pesados estão com 
+maior frequência os seguintes elementos: cobre, fe rro, manganês, molibdênio, zinco, 
+cobalto, níquel, vanádio, alumínio, prata, cádmio, cromo, mercúrio e chumbo (CETESB, 
+2011). 
+Metais pesados como o Pb, Hg, Cd, As, Cr, Zn e Mn, dentre outros, estão presentes em 
+diversos tipos dos resíduos levados à inciner adores, como: lâmpadas, pilhas galvânicas, 
+baterias, restos de tintas, restos de produtos de limpeza, óleos lubrificantes usados, 
+solventes, embalagens de aerossóis, resto de amálgama, materiais fotográficos e 
+radiográficos, embalagens de produtos químicos , componentes eletrônicos, resíduos 
+farmacêuticos, aditivos alimentares e plásticos descartados. (ADAPTADO DE: WHO, 1998; 
+WHO, 1989; WHO, 1992; WHO, 1995; WHO, 2001; EYER, 1995) 
+Durante a incineração, os metais pesados são particularmente importantes pela  
+resistência que possuem. São elementos cuja concentração é a mesma, antes e depois da 
+incineração. Resíduos com presença de metais pesados voláteis, como o cádmio e o 
+mercúrio, liberam estes metais na fase vapor no interior do incinerador. Estes metais são, 
+então, condensados na superfície das partículas de cinza suspensas no ar, e, uma vez no 
+ambiente, podem passar para a vegetação ou solo, e por sua vez, podem facilmente ser 
+inaladas ou ingeridas pelo homem. Outro mecanismo que contribui para o aumento d as 
+concentrações de metais pesados nos gases de combustão dos incineradores é a presença 
+Página 11 
+
+===== PAGINA 13 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+de compostos clorados. Estes compostos promovem a elevação do arraste de metais com 
+os gases de combustão, pois formam sais metálicos clorados que são muito voláteis e são 
+transportados na fase vapor da região de combustão para as regiões mais frias, onde se 
+condensam, formando material particulado na forma de cinza volante ou incrustações 
+nas paredes mais frias do incinerador. Parte dos metais que deveria ficar retida nas cinzas 
+de fundo da grelha, na forma de óxidos, sai com os gases na forma de sais clorados. A 
+quantidade de material metálico arrastado aumenta com o teor de compostos clorados 
+presente no resíduo sólido. 
+ 
+5.6. Gases SULFUROSOS (SOx) 
+ 
+O enxofre (S) contido no resíduo sólido na forma orgânica, normalmente presente em 
+artefatos de borracha, se converte a dióxido e trióxido de enxofre (SO2 e SO3) na câmara 
+de combustão. Estes gases, em regiões de baixa temperatura, podem formar soluções 
+ácidas com água, de forma semelhante ao que ocorre com o HCl, e provocar corrosão em 
+superfícies metálicas no interior do incinerador. Estes gases, uma vez na atmosfera, 
+contribuem para a formação de chuva ácida. O enxofre presente no resíduo sólido na 
+forma inorgânica, por exemp lo, gesso, sai quase que integralmente com as cinzas de 
+fundo. 
+ 
+5.7. Monóxido de carbono (CO) 
+ 
+O monóxido de carbono (CO) se forma a partir da combustão incompleta de compostos 
+orgânicos. Esta situação ocorre quando: há falta de ar de combustão ou a mistura dos  
+produtos combustíveis com o ar de combustão na região sobre a grelha não é adequada 
+(pouca turbulência); a temperatura dos gases nesta região é baixa (menor que 800°C). 
+No incinerador, quando há ocorrência de qualquer uma destas situações, observa -se a 
+formação de níveis elevados de CO. Este gás, uma vez formado e não convertido a CO2 
+ao longo do forno, não pode ser removido da corrente gasosa pelos sistemas de limpeza 
+de gases existentes, sendo emitido com os gases de combustão na chaminé. Daí a 
+importância de se procederem as boas práticas de combustão que, uma vez aplicadas, 
+tendem a manter a emissão de CO dentro dos níveis estabelecidos pelas legislações 
+Página 12 
+
+===== PAGINA 14 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+ambientais. Este gás também serve como indicativo do nível de formação de outros 
+poluentes no inte rior do incinerador, como material particulado, compostos orgânicos 
+voláteis e dioxinas e furanos. Teores elevados deste gás na chaminé são indicativos de má 
+combustão de compostos orgânicos na região situada acima da grelha. Esta situação leva 
+à formação de fuligem (partículas microscópicas de carbono não queimado) e compostos 
+voláteis orgânicos não queimados que, como citado anteriormente, na presença de 
+compostos clorados, podem levar à formação de dioxinas e furanos. 
+ 
+5.8. Óxidos de nitrogênio (NO e NO2) 
+ 
+Estes óxidos, que recebem a denominação geral de NOx, são gases que têm participação 
+significativa na poluição atmosférica, sendo um dos principais responsáveis pela formação 
+de névoas escuras (smog) observadas no período de inverno sobre as grandes 
+metrópoles, durante as inversões térmicas e pela formação de ozônio ao nível do solo. 
+Temperaturas elevadas, acima de 1000°C, tendem a favorecer a sua formação. Os teores 
+de nitrogênio presentes no resíduo sólido geralmente são baixos e a taxa de formação de 
+NOx, em incineradores não tem sido maior que as observadas em equipamentos de 
+combustão de combustíveis fósseis. No entanto, os limites de emissão destes gases, nos 
+países mais desenvolvidos, têm se tornado cada vez mais restritivos, obrigando a 
+introdução de s istemas de destruição destes gases, um deles conhecido como redução 
+seletiva não catalítica. Neste sistema injeta-se uma pequena quantidade de amônia (NH3) 
+na corrente gasosa, antes do sistema de limpeza de gases, convertendo o NOx em 
+nitrogênio e água. Sistemas deste tipo apresentam eficiência de redução na faixa de 40%. 
+No Brasil, equipamentos de combustão em geral, incluindo incineradores de resíduo 
+sólido, não têm um limite de emissão estabelecido para estes gases. 
+ 
+5.9. Dioxinas e furanos 
+ 
+Dioxinas e furanos é a nomenclatura usual para descrever uma família de 210 compostos 
+aromáticos clorados constituídos por dois anéis benzênicos unidos por átomos de 
+oxigênio. Destes, 75 compostos são as chamadas dioxinas e 135, furanos. Eles possuem 
+Página 13 
+
+===== PAGINA 15 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+propriedades e efei tos à saúde humana semelhantes, porém com intensidades 
+diferentes. Basicamente, existem três mecanismos pelos quais as dioxinas e os furanos 
+podem ser formados durante o processo de incineração, sendo eles: 
+1. As dioxinas e furanos já estão presentes no resíd uo e o processo de incineração, por 
+problemas operacionais, como baixas temperaturas (menores que 800°C), não os 
+destroem. 
+2. Eles são formados durante o processo de incineração devido à presença, em resíduos 
+sólidos, de compostos que são precursores de dioxinas e furanos, tais como ascarel, PVC, 
+etc. 
+3. Eles podem ser formados a partir das reações entre os compostos contendo cloro, 
+carbono e oxigênio no interior do incinerador. Estas reações são favorecidas pela 
+presença de alguns metais e normalmente ocorrem em temperaturas entre 200 e 600°C. 
+Vários estudos têm sido conduzidos com o objetivo de clarear os mecanismos de 
+formação das dioxinas e furanos. Alguns deles têm demonstrado que as dioxinas e furanos 
+formadas em processo de incineração, em geral, são mínima s, da ordem de algumas 
+partes por bilhão (ppb). Porém, dada a alta toxicidade destes compostos, sua emissão, 
+mesmo que em concentrações abaixo dos níveis legais, deve ser evitada. 
+Como são extremamente baixas as concentrações de dioxinas e furanos encontradas nas 
+emissões de incineradores de resíduos sólidos urbanos e/ou de resíduos de serviços de 
+saúde, a sua determinação depende de metodologias e instrumentação extremamente 
+sofisticados. 
+Página 14 
+
+===== PAGINA 16 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+6. SISTEMA OPERACIONAL 
+ 
+Um consenso tem surgido entre os especialistas  de saúde pública que a poluição do ar 
+está associada com uma variedade de problemas de saúde, especialmente doenças 
+respiratórias e mortalidade. No entanto, quando se trata de epidemiologia é difícil 
+identificar as causas específicas das doenças, porque a s pessoas estão expostas a uma 
+mistura de poluentes e estes podem combinar-se entre si, gerando efeitos sinérgicos. Os 
+padrões de qualidade do ar definem legalmente o limite máximo para a concentração de 
+um poluente na atmosfera, que garanta a proteção da saúde e do meio ambiente. 
+Os padrões de qualidade do ar são baseados em estudos científicos dos efeitos 
+produzidos por poluentes específicos e são fixados em níveis que possam propiciar uma 
+margem de segurança adequada. Na década de 1990, seguindo critério s técnicos com 
+base em vários estudos epidemiológicos e experimentais e nos efeitos à saúde, os Estados 
+Unidos estabeleceram padrões de qualidade do ar, especificando os seis poluentes 
+atmosféricos que seriam controlados pela Agência de Proteção Ambiental norte- 
+americana (EPA). Estes padrões são mostrados na tabela abaixo. 
+Os padrões nacionais foram estabelecidos pelo IBAMA - Instituto Brasileiro de Meio 
+Ambiente e aprovados pelo CONAMA - Conselho Nacional de Meio Ambiente, por meio 
+da Resolução CONAMA 03/ 90. Os parâmetros regulamentados são os seguintes: 
+partículas totais em suspensão, fumaça, partículas inaláveis, dióxido de enxofre, 
+monóxido de carbono, ozônio e dióxido de nitrogênio. 
+ 
+6.1. Padrões nacionais de qualidade do ar sengundo a Resolução 
+CONAMA 03/90 
+ 
+6.1.1. Material particulado (MP) 
+ 
+Sob a denominação geral de Material Particulado (MP) se encontra um conjunto de 
+poluentes constituídos de poeiras, fumaças e todo tipo de material sólido e líquido que 
+se mantém suspenso na atmosfera por causa de seu pequeno tamanho. As principais 
+fontes de emissão de particulado para a atmosfera são: veículos automotores, processos 
+industriais, queima de biomassa, ressuspensão de poeira do solo, entre outros. 
+Página 15 
+
+===== PAGINA 17 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+O material particulado pode também se formar na atmosfera a partir  de gases como 
+dióxido de enxofre (SO2), óxidos de nitrogênio (NOx) e compostos orgânicos voláteis 
+(COVs), que são emitidos principalmente em atividades de combustão, transformando-se 
+em partículas como resultado de reações químicas no ar. O tamanho das pa rtículas está 
+diretamente associado ao seu potencial para causar problemas à saúde, sendo que 
+quanto menores maiores os efeitos provocados. O particulado pode também reduzir a 
+visibilidade na atmosfera. Estudos sobre as partículas de poluição do ar, geralm ente 
+utilizam siglas subscritas por índice, o qual denota o maior diâmetro aerodinâmico da 
+partícula em μm. O material particulado pode ser classificado como: (CETESB.SP.GOV,BR) 
+ 
+6.1.2. Partículas Totais em Suspensão (PTS) 
+ 
+Podem ser definidas de maneira simplificada como aquelas cujo diâmetro aerodinâmico 
+é menor que 50 µm. Uma parte destas partículas é inalável e  pode causar problemas à 
+saúde, outra parte pode afetar desfavoravelmente a qualidade de vida da população, 
+interferindo nas condições estéticas do ambiente e prejudicando as atividades normais 
+da comunidade. 
+ 
+6.1.3. Partículas Inaláveis (MP10) 
+As partículas inaláveis são as mais prejudiciais à saúde humana. Podem ser definidas de 
+maneira simplificada como aquelas cujo diâmetro aerodinâmico é menor que 10 µm, pois 
+partículas de mais de 10 μm são retidas na parte superior das vias respiratórias e parecem 
+menos prejudiciais. Aquelas que possuem entre 2,5 e 10 μm de diâmetro são as partículas 
+que podem penetrar mais profundamente em brônquios e bronquíolos. As partículas 
+menores que 2,5 μm atingem os alvéolos dos pulmões. 
+6.1.4. Fumaça 
+ 
+Está associada ao material particulado suspenso na atmosfera proveniente dos processos 
+de combustão. O método de determinação da fumaça é baseado na medida de refletância 
+da luz que incide na poeira (coletada em um fi ltro), o que confere a este parâmetro a 
+característica de estar diretamente relacionado ao teor de fuligem na atmosfera. 
+Considerando a combustão de resíduos, material particulado designa qualquer coisa que 
+Página 16 
+
+===== PAGINA 18 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+é recolhida nos filtros de detectores de partícu las. É uma mistura de partículas de 
+combustão (material orgânico ou fuligem), metais, sulfatos, aerossóis ácidos (incluindo as 
+gotículas de ácido sulfúrico) e os aerossóis de nitrato, assim como partículas do solo, água 
+do mar etc., que podem estar na forma condensada ou adsorvida. 
+A maioria das estações de monitoramento mensura unicamente a concentração em 
+massa de MP sem qualquer detalhe sobre a composição. 
+6.1.5. Dióxido de enxofre (SO2) 
+ 
+Está associada ao material particulado suspenso na atmosfera proveniente dos processos 
+de combustão. O método de determinação da fumaça é baseado na medida de refletância 
+da luz que incide na poeira (coletada em um filtro), o que confere a este parâmetro a 
+característica de estar diretamente relacionado ao teor de fuligem na at mosfera. 
+Considerando a combustão de resíduos, material particulado designa qualquer coisa que 
+é recolhida nos filtros de detectores de partículas. É uma mistura de partículas de 
+combustão (material orgânico ou fuligem), metais, sulfatos, aerossóis ácidos (incluindo as 
+gotículas de ácido sulfúrico) e os aerossóis de nitrato, assim como partículas do solo, água 
+do mar etc., que podem estar na forma condensada ou adsorvida. 
+6.1.6. Óxido de nitrogênio (NOx) 
+A principal via de contaminação do ser humano pelos óxidos de nitrogênio é a respiratória 
+e podem causar irritações nos pulmões, diminuição na capacidade imunológica ou 
+agravar o quadro de doenças como bronquites, asma e enfisemas pulmonares. NO é 
+também associado como precursor dos nitratos e ozônio. 
+6.1.7. Monóxido de carbono (CO) 
+Este poluente é um gás incolor, inodoro e não irritante. Ele é imperceptível pelo ser 
+humano e a via de contaminação é a respiratória. Devido a sua grande afinidade com a 
+hemoglobina do sangue, ele causa diminuição na capacidade de transporte de oxigênio 
+pelo sangue. Esta diminuição está diretamente relacionada com a concentração de 
+monóxido de carbono no ar inspirado e, dependendo desta concentração, os efeitos 
+causados no ser humano podem ir desde a diminuição dos seus reflexos até o óbito por 
+asfixia. 
+Página 17 
+
+===== PAGINA 19 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+6.1.8. Metais pesados 
+Os principais efeitos adversos que os compostos metálicos podem causar à saúde 
+humana, quando emitidos para a atmosfera acima de certos níveis ou dispostos de forma 
+inadequada, se devem ao seu potencial cancerígeno e sua toxicid ade. Além disso, os 
+metais pesados apresentam peso atômico relativamente alto e caracterizam -se pelo 
+efeito bi acumulativo. Em concentrações superiores às legalmente recomendadas, estes 
+metais têm sido responsabilizados por causar danos no sistema nervoso central, no 
+sistema hepático, no sistema renal, no sistema hematopoiético e no sistema esquelético 
+(MUÑOZ, 2002). 
+Página 18 
+
+===== PAGINA 20 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+7. PARÂMETROS OPERACIONAIS DO PROCESSO 
+ 
+A condição de processo adotada para a realização da estimativa de eficiência, aqu 
+apresentada, foi base ada nas condições estabelecidas pela resolução CONAMA nº 
+316/2002 estabelece procedimentos operacionais, limites de emissão e critérios de 
+desempenho para tratamento térmico de resíduos e cadáveres. Além disso, a NBR 10004 
+da ABNT classifica resíduos por periculosidade, e a Lei nº 12.305/10 (Política Nacional de 
+Resíduos Sólidos) visa reduzir o volume e a periculosidade dos resíduos: 
+Temperatura do forno rotativo > 900 °C; 
+Pressão no forno rotativo < 0 mmca; 
+Temperatura da câmara de pós combustão > 1.160 °C; 
+Temperatura na saída do Quencher < 280 °C; 
+pH no Venturi mantido na faixa entre 7,5 a 9,0 upH; 
+pH na Torre de absorção mantido na faixa entre 7,5 a 9,0 upH; 
+Página 19 
+
+===== PAGINA 21 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+8. DESCRIÇÃO DO PROCESSO DE INCINERAÇÃO 
+A incineração é um processo de engenharia que emprega deco mposição via oxidação 
+térmica à alta temperatura (usualmente 900ºC ou maior) para destruir a fração orgânica 
+de resíduos e reduzir o volume. Como resultante do processo de incineração temos o 
+dióxido de carbono, gases ácidos, cinzas e escórias. 
+8.1. Processo de incineração 
+ 
+O equipamento “1” apresentado no Anexo 1 é o forno rotativo, responsável pela oxidação 
+térmica dos resíduos. 
+Os resíduos sólidos e pastosos são alimentados em embalagens ou fardos, com dimensões 
+de no máximo 680 x 680 x 900 milímetros. Essa r estrição tem o objetivo de garantir a 
+adequada incineração dos resíduos adicionados ao forno, que  permanecem no interior 
+do equipamento por um período de no mínimo 30 minutos. 
+O forno possui um queimador alimentado a gás liquefeito de petróleo (GLP), um 
+queimador para injeção de resíduo líquido que é usado tanto para resíduos líquidos 
+inflamáveis e não inflamáveis e um terceiro queimador para injeção de gases. 
+No final do forno, a matéria orgânica foi convertida em monóxido carbono, dióxido de 
+carbono, gase s ácidos, material particulado e água, que são direcionados para o 
+tratamento de efluentes gasosos. A escória, composta principalmente por óxidos 
+inorgânicos e carbono (carvão) é descarregada e coletada. Depois de resfriada, é enviada 
+para o aterro de resíduos classe 1. 
+Os demais equipamentos do incinerador são apresentados no quadro 1. 
+Página 20 
+
+===== PAGINA 22 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+ 
+Quadro 1: Equipamentos de composição da planta do incinerador da INCILIX 
+ 
+COMPOSIÇÃO DO SISTEMA INCINERADOR 
+Elementos Denominações Observações 
+01 Bancada para a alimentação  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Os elementos foram 
+numerados conforme a 
+figura abaixo. 
+02 Esteira de alimentação do elevador 
+03 Esteira de alimentação 
+04 Conjunto/Motor – Redutor 
+05 Forno Rotativo 
+06 Cinzeiro 
+07 Queimador 
+08 Torre de incineração 
+09 Damper de exaustão 
+10 Ciclone de Particulados 
+11 Esfriador de gases 
+12 Ciclone de Particulados 
+13 Filtro de Carvão Ativado 
+14 Ciclone de Particulados 
+15 Filtro de cal hidratado 
+16 Ciclone de Particulados 
+17 Filtro manga 
+18 Chaminé 
+ 
+ 
+Figura 1: Elevação sem escala do sistema de incineração (Fonte: Acervo particular – RM Consultoria) 
+Página 21 
+
+===== PAGINA 23 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+Embora se saiba da primordial importância de todo o sistema que engloba a planta do 
+incinerador aqui estudado, as descrições de atividades explicitadas aqui, são apenas para 
+as composições que mitigam as emissões de efluentes. 
+CS – Câmara Secundária 
+A câmara secundária é um forno vertical estático que opera com tempo de residência de 
+no mínimo 3 segundos. A câmara secundária possui duas funções principais: Oxidar o CO 
+(monóxido de carbono) gerado no forno rotativo a CO2 e destruir as moléculas orgânicas 
+perigosas e persistentes. 
+Resfriador de Gases 
+Realiza a refrigeração dos gases resultantes da combustão. Essa refrigeração é realizada 
+pela vaporização de aproximadamente 1,5 m3/h de água, atomizada com ar atmosférico, 
+que entra em contato direto com os gases quentes. Além de resfriar este processo visa 
+reduzir a acidez dos gases ácidos provenientes da incineração dos resíduos, e permite ao 
+sistema atingir os limites im postos pela legislação para emissão de gases ácidos. Em 
+menos de 3 segundos, os gases são resfriados para temperaturas inferiores a 250°C. O 
+baixo tempo de resfriamento dos gases é crítico para minimizar a formação de dioxinas e 
+furanos. 
+Ciclones 
+O ciclone de alta eficiência (~ 97% para partículas até 20µ) irá separar os sólidos do fluxo 
+gasoso por efeito centrífugo. O gás a ser tratado é forçado a realizar um movimento 
+espiralar, surgindo então, um campo centrífugo e consequente surgimento de forças 
+centrífugas atuando sobre as partículas em suspensão. A desaceleração da velocidade 
+destas partículas provoca sua queda e o material  particulado então é retirado do ciclone 
+através de válvula de descarga e selagem. 
+Filtro de Cal Hidratado 
+O filtro de Cal Hidratado tem função análoga de neutralizar os gases ácidos provenientes 
+da incineração dos resíduos, é uma redundância que garante a eficiência do sistema e 
+permite ao sistema atingir os limites impostos pela legislação para emissão de gases 
+ácidos. O pH de operação da torre de absorção é controlado pelo transbordo, entre 8,0 e 
+Página 22 
+
+===== PAGINA 24 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+9,0. A neutralização também é efetuada através do contato direto do filtro com os gases 
+da combustão. 
+Filtro de mangas 
+Este equipamento tem como função eliminar o material particulado pr esente nos gases 
+da combustão. As mangas são fabricadas em material específico, que suporta 
+temperatura de até 250 °C. O filtro opera continuamente, possuindo um sistema 
+automático de descarregamento, que identifica a  saturação do filtro, realiza sua limpe za 
+e coleta as cinzas geradas, acomodando-as em um big bag. 
+Filtro de Carvão Ativado 
+A principal função do filtro de carvão ativado no incinerador é reter as possíveis dioxinas 
+e furanos que se reformaram no resfriamento dos gases. Devido a temperatura nes sa 
+etapa do processo ser no máximo de 120°C as dioxinas estarão em estado sólido, sendo 
+assim, serão retidas pelo filtro de mangas. Embora nesta região todas as moléculas de 
+dioxina devem estar no estado sólido, podem ser encontradas algumas quantidades em  
+fase gasosa. Estas moléculas em fase gasosa ficarão retidas nos poros da matriz sólida do 
+carvão ativo para cada kg de cloro adicionado ao forno, será introduzido 0,8 kg de carvão 
+ativado. 
+Exaustor 
+Equipamento que garante a estanqueidade do sistema e o ar raste dos gases através do 
+forno e pelo sistema de tratamento de gases. Este equipamento garante também a 
+manutenção de uma pressão negativa no sistema, fator crítico quando se consideram 
+aspectos de segurança de processo, saúde ocupacional e poluição atmosférica. 
+Chaminé 
+Ponto de lançamento dos gases e vapores gerados pela incineração, após o tratamento. 
+Na chaminé é realizado o monitoramento contínuo da qualidade, conforme exigência do 
+CONAMA 316/2.002. Além disso, está chaminé possui pontos para amostra gem 
+isocinética de emissões atmosféricas, em conformidade com os padrões exigidos pela 
+CETESB. 
+*As cinzas removidas da corrente gasosa são coletadas e após tratamento de inertização 
+Página 23 
+
+===== PAGINA 25 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+(3.3) serão acondicionadas em bags e destinadas para o aterro classe 1. 
+**Quimicamente, as cinzas apresentam características semelhantes a escória gerada pelo 
+forno. 
+ 
+8.2. Tratamento de efluentes 
+ 
+Os efluentes resultantes dos processos de refrigeração e neutralização dos gases da 
+incineração são encaminhados para uma estação  de tratamento de efluentes (ETE), com 
+capacidade de 5 m³/h, ou 2200 m³/mês. Todo o efluente gerado pela unidade é utilizado 
+como água de processo na própria unidade. 
+A estação de tratamento realiza a remoção físico -química dos compostos inorgânicos 
+presentes no efluente, adequando sua qualidade aos padrões técnicos exigidos para sua 
+utilização no resfriador de gás. 
+8.3. Inertização de Cinzas e Escórias 
+ 
+A inertização de cinzas e escórias de incineração de resíduos sólidos urbanos (RSU) e 
+resíduos de serviços de saúde ( RSS) é um processo importante para reduzir o impacto 
+ambiental desses resíduos, transformando -os em materiais menos perigosos e 
+potencialmente utilizáveis. A incineração, um processo de tratamento térmico, gera 
+cinzas e escórias que podem conter substâncias tóxicas, como metais pesados e dioxinas, 
+exigindo tratamento para evitar a contaminação do meio ambiente. 
+Os elementos residuais do processo de inertização aqui proposto, podem estar nas 
+formas: 
+i) Cinzas - chamamos cinzas aos produtos inorgânicos, eventual mente contendo 
+vestígios não queimados de substâncias orgânicas, nomeadamente carbono, que se 
+encontrem na forma de partículas dispersas e friáveis de dimensão variável; 
+ii) Escórias - chamamos escórias aos produtos inorgânicos, eventualmente contendo 
+vestígios não queimados de substâncias orgânicas, nomeadamente carbono, que 
+tenham sofrido um processo de fusão durante o processo de combustão, 
+apresentando-se como aglomerados vítreos das partículas residuais; 
+iii) Cinzas volantes - são substâncias orgânicas ou inor gânicas provenientes dos 
+filtros de despoeiramento dos gases de combustão. 
+Página 24 
+
+===== PAGINA 26 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+Os principais objetivos do tratamento das cinzas e escórias obtidas no processo de 
+incineração do RSS, são reduzir a mobilidade dos contaminantes, minimizar os líquidos 
+livres, e ocasionalmente, aumentar a resistência física do resíduo. 
+Neste processo haverá a adição de cimento Portland ao material residual, formando um 
+sólido granular ou monolítico que incorpora o material residual e imobiliza os 
+contaminantes. 
+A formação da matriz  sólida ocorre devido a hidratação dos silicatos no cimento, 
+fornecendo silicatos de cálcio hidratado. Uma quantidade suficiente de água livre pode 
+estar presente no material residual, ou pode haver a necessidade de adição. 
+Dos agentes ligantes inorgânicos , o cimento Portland provavelmente tem tido a maior 
+diversidade de aplicação a diversos resíduos perigosos, especialmente quando 
+combinados com cinzas volantes. 
+Como o cimento é um material de construção usual, os materiais e equipamentos são 
+geralmente produzidos em larga escala e geralmente de baixo custo quando comparado 
+a processos de tratamento de grande consumo de energia como a vitrificação e a 
+incineração. Muitos tipos de cimento têm sido usados para diversas finalidades, mas 
+somente aqueles classificados como cimento Portland, que é basicamente composto de 
+silicato de cálcio anidro, tem tido um uso relevante na tecnologia de solidificação e 
+estabilização (S/E) (CONNER, 1990). 
+ 
+● A escolha do método se deve a algumas vantagens listadas abaixo: 
+● Disponibilidade de encontrar facilmente os materiais; 
+● Baixo custo dos materiais e dos equipamentos de mistura; Uso de minerais de 
+ocorrência natural como matéria prima para a matriz; 
+● Habilidade de formar uma barreira física forte sob condições adversas; 
+● Flexibilidade na formatação das propriedades conforme a aplicação; 
+● Baixa variabilidade na composição; 
+● Reações de fixação e endurecimento razoavelmente bem conhecidas e alguns 
+dados disponíveis sobre a imobilização de metais. 
+Página 25 
+
+===== PAGINA 27 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+A inclusão das cinzas ao cimento ou al catrão (INPI Paris, 1998) constitui um processo de 
+inertização em que as cinzas, que é necessário preservar do contacto com os agentes 
+ambientais, são encapsuladas numa massa resistente aos processos de degradação. As 
+partículas inorgânicas contendo metais pesados ficam, assim, aprisionadas no interior de 
+uma matriz, constituindo inclusões sem alteração das suas propriedades químicas. Isto 
+significa que a degradação do invólucro poderá libertar o produto inorgânico perigoso, 
+mesmo que tal possa ocorrer muito tempo depois do seu tratamento. 
+O processo de cimentação fixa a água livre, aumenta o pH e altera outras propriedades 
+químicas da mistura, reduz a área superficial e aumenta a resistência. Todos estes 
+mecanismos contribuem para a melhora nas qualidades d o resíduo tratado, 
+possibilitando assim a sua disposição segura em aterro sanitário. Para o processo de 
+inertização aqui proposto, estima -se uma proporção de 30% em massa de cimento 
+Portland para cada quilograma de resíduos do processo de incineração da INCILIX. 
+Página 26 
+
+===== PAGINA 28 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+9. ESTIMATIVAS DE EMISSÕES DE EFLUENTES ATMOSFÉRICOS 
+ 
+9.1 Metodologia de Estimativa 
+Em atendimento ao Parecer Técnico nº 010/25/IAA/IARS e ao Parecer Técnico nº 
+035/2026/IAA, as estimativas de emissões atmosféricas do empreendimento foram revisadas, 
+passando a ser fundamentadas nos limites de emissão aplicáveis ao  processo de 
+licenciamento ambiental e na vazão nominal da chaminé do sistema de incineração. 
+Diferentemente de abordagens baseadas em fatores de emissão provenientes de literatura 
+técnica, as estimativas apresentadas neste documento utilizam como referência direta os 
+limites estabelecidos no processo de licenciamento, garantindo aderência aos crit érios 
+regulatórios da CETESB. 
+A conversão dos limites de emissão, expressos em mg/Nm³, para taxa de emissão em massa 
+(kg/h), foi realizada conforme a seguinte expressão: 
+Emissão (kg/h) = Limite de emissão (mg/Nm³) × Vazão da chaminé (Nm³/h) ÷ 1.000.000 
+Para a estimativa anual (t/ano), foi considerada a condição operacional do empreendimento 
+de 20 horas por dia e 300 dias por ano, totalizando 6.000 horas anuais de operação. 
+A vazão de gases adotada foi de  12.000 Nm³/h , conforme parâmetros operacionais do 
+sistema de incineração. 
+      9. 2 Estimativa das Emissões Atmosféricas 
+Com base nos critérios descritos, foram estimadas as emissões dos principais poluentes 
+atmosféricos associados ao processo de incineração de resíduos de serv iços de saúde, 
+conforme apresentado no quadro a seguir: 
+    Quadro – Estimativa das emissões atmosféricas 
+ 
+Poluente Limite (mg/Nm³) Vazão (Nm³/h) Emissão (kg/h) Emissão (t/ano) 
+Material Particulado (MP) 50 12.000 0,60 3,60 
+Óxidos de Enxofre (SOx) 250 12.000 3,00 18,00 
+Óxidos de Nitrogênio (NOx) 400 12.000 4,80 28,80 
+Hidrocarbonetos Totais (HCT) — 12.000 0,50 3,00 
+ 
+9.3 Considerações sobre Compostos Orgânicos Totais (HCT) 
+Para os compostos orgânicos totais (HCT), ressalta -se que o Parecer Técnico nº 
+010/25/IAA/IARS não estabelece limite específico de emissão para este parâmetro. 
+Dessa forma, foi adotada uma estimativa conservadora, compatível com sistemas de 
+incineração dotados de controle eficiente de combustão, incluindo câmara de pós -
+
+===== PAGINA 29 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+combustão, sistema de resfriamento rápido de gases, injeção de reagentes e filtração por 
+mangas associada ao uso de carvão ativado. 
+A estimativa apresentada tem caráter exclusivamente quantitativo, com a finalidade de 
+atender à exigência de apresentação das emissões em termos de massa (kg/h e t/ano), 
+conforme solicitado no processo de licenciamento ambiental. 
+ 
+9.4 Considerações Técnicas Gerais 
+As estimativas apresentadas neste item substituem integralmente quaisquer abordagens 
+anteriores baseadas em fatores de emissão de literatura, passando a adotar exclusivamente 
+os limites estabelecidos no processo de licenciamento ambiental e os parâmetros 
+operacionais do empreendimento. 
+Os resultados obtidos demonstram que as emissões previstas para o empreendimento 
+encontram-se compatíveis com os limites aplicáveis e com as condiç ões operacionais 
+propostas, considerando a utilização de sistema de controle de poluição atmosférica 
+composto por múltiplas etapas de tratamento. 
+9.5 Conclusão 
+O presente conjunto de estimativas atende integralmente às e xigências técnicas 
+estabelecidas pela CETESB para a continuidade do processo de licenciamento ambiental, 
+contemplando a apresentação das emissões atmosféricas em termos de kg/h e t/ano, com 
+base em metodologia compatível com os critérios regulatórios vigentes. 
+10. DETALHAMENTO DO TESTE DE EFICIÊNCIA 
+ 
+10.1. Teste de Eficiência 
+ 
+O teste de eficiência engloba um conjunto de ações desde testes de intertravamentos do 
+sistema de oxidação térmica, preparo de material padronizado contendo os compostos 
+serão avaliados no teste e amostragem dos efluentes gasosos e resíduos gerados, a fim 
+de verificar o ate ndimento às condicionantes impostas pelo órgão ambiental na licença 
+de operação da unidade. 
+Os testes serão realizados em até 11 dias corridos, conforme cronograma a ser definido. 
+ 
+10.2. Teste do Sistema de Segurança 
+ 
+10.2.1. Intertravamentos 
+
+===== PAGINA 30 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+Antes do início do teste de queima serão avaliados todos os intertravamentos da unidade 
+através de simulação direta das ocorrências de interrupção do processo conforme 
+10.2.2. Descrição dos intertravamentos: 
+Temperatura alta no resfriador 
+Temperatura maior que 400ºC (TIC 501) do resfriador. 
+Todas as alimentações param as de resíduos imediatamente e as de combustíveis se já 
+não estiverem paradas. A tampa da chaminé (A -380) de emergência abre. O exaustor de 
+gases de combustão para após 120 segundos (tempo de purga do sistema de lavagem de 
+gases). O ventilador de ar de combustão para após 30 minutos (tempo de purga do forno 
+rotativo e câmara de pós combustão. 
+Pressão positiva na CPC  
+Pressão acima de 0 mmca: Todas as alimentações param as de resíduos imediatamente e 
+as de combustíveis se já não estiverem paradas. A tampa da chaminé de emergência abre. 
+O exaustor de gases de combustão para após 120 segundos (tempo de purga do sistema 
+de lavagem de gases). O ventilador de ar de combustão para após 30 minutos (tempo de 
+purga do forno rotativo e câmara de pós combustão). 
+Página 31 
+
+===== PAGINA 31 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+Parada do Exaustor 
+Parada do exaustor: Todas as alimentações param as de resíduos imediatamente e  as de 
+combustíveis se já não estiverem paradas. A tampa da chaminé de emergência abre. O 
+ventilador de ar de combustão ara após 30 minutos (tempo de purga do forno rotativo e 
+câmara de pós combustão). 
+Temperatura alta na saída do resfriador 
+Temperatura de saída acima de 84°C: Todas as alimentações param, as de resíduos 
+imediatamente e as de combustíveis se já não estiverem paradas. A tam pa da chaminé 
+de emergência abre. O exaustor de gases de combustão para após 120 segundos (tempo 
+de purga do sistema de lavagem de gases). O ventilador de ar de combustão para após 30 
+minutos (tempo de purga do forno rotativo e câmara de pós combustão). 
+Falha do ventilador  
+Parada do ventilador: Interrupção automática de alimentação de resíduos no incinerador, 
+tanto de sólidos como de líquidos, e de combustível para os queimadores. 
+Falha do motor do forno rotativo  
+Parada do forno rotativo: Interrupção automática de alimentação de resíduos sólidos no 
+forno, e de combustível para o queimador é cortada. 
+Nível alto do tanque de efluentes  
+Nível alto de efluente: Interrupção automática de alimentação de resíduos no forno, tanto 
+líquidos como sólidos. 
+Falta de energia elétrica  
+Falta de energia elétrica: Todas as válvulas controladoras do incinerador param. Abertura 
+da chaminé de emergência. Entrada do gerador de energia para funcionamento das 
+bombas, motores do forno e compressor de ar. 
+Alta emissão de CO  
+Concentração acima de 100 ppm: Interrupção automática da alimentação de resíduos no 
+incinerador, tanto de sólidos como líquidos, após 10 minutos. 
+Página 32 
+
+===== PAGINA 32 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+Muito alta emissão de CO  
+Concentração acima de 500 ppm: Interrupção instantânea e automática de resíduos no 
+incinerador, tanto de sólidos como líquidos. 
+Alta emissão de SOx  
+Concentração acima de 250 mg/Nm3: Interrupção automática da alimentação de resíduos 
+no incinerador, tanto de sólidos como de líquidos. 
+Alta emissão de NOx  
+Concentração acima de 400 mg/Nm3: Interrupção automática da alimentação de resíduos 
+no incinerador, tanto de sólidos como de líquidos. 
+Baixa temperatura de queima.  
+Temperatura da CPC abaixo de 1160°C: Interrupção do sistema de alimentação de 
+resíduos no incinerador (sólidos e líquidos). Temper atura do Forno abaixo de 900°C: 
+Interrupção do sistema de alimentação de resíduos no incinerador (sólidos e líquidos). 
+Falha dos monitores de CO, O2 e temperatura  
+Ausência de sinal do aparelho analisador de gases: Interrupção do sistema de alimentação 
+de resíduos no incinerador. 
+ 
+10.3. Parâmetros monitorados e reagentes utilizados no teste 
+ 
+O teste de eficiência será realizado de forma controlada, a fim de garantir que as taxas 
+máximas de alimentação, informadas na licença de operação do incinerador, sejam 
+atingidas. 
+O quadro 3 apresenta os parâmetros de emissão que serão monitorados no teste e os 
+reagentes utilizados para avaliação de cada um desses parâmetros. 
+Página 33 
+
+===== PAGINA 33 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+ 
+Quadro 4: Parâmetros de emissão monitorados e reagentes utilizados no teste. 
+ 
+N Parâmetro Método 
+1 Material Particulado EPA METHOD 5: 2000/CETESB L9.225: 03/1995 
+2 Óxidos de Enxofre CETESB L9.228: 06/1992 
+3 Óxidos de Nitrogênio EPA METHOD 7: 2000/CETESB L9.229: 10/1992 
+4 Dioxinas e Furanos EPA METHOD 3540, ver3/EPA METHOD 1613B, rev2. 
+5 EDR e PCOP EPA METHOD 8270 A/CETESB L9.232: 08/90 
+6 Fluor Total CETESB L9.213: 09/1995 
+7 HCl/Cl2 EPA METHOD 0050:1996/CETESB L9.231: 05/1994 
+8 Cianetos CETESB L9.224: 08/93/EPA METHOD OTM-29: 03/11 
+9 Metais de Classe 1 EPA METHOD 29: 2000/EPA METHOD 0060 
+10 Metais de Classe 2 EPA METHOD 29: 2000/EPA METHOD 0060 
+11 Metais de Classe 3 EPA METHOD 29: 2000/EPA METHOD 0060 
+12 ORSAT CETESB L9.210: 10/1990 
+ 
+ 
+ 
+10.4. Preparo do Resíduo Padronizado 
+ 
+Este item descreve como serão preparadas as barricas utilizadas no teste. A composição 
+das barricas irá variar ao longo do teste, a fim de garantir condições operacionais 
+adequadas para a realização do mesmo. Para DFE (Dioxinas e Furanos) bem como no teste 
+de MP (material particulado) será utilizado um BLEND com areia, lodo e serragem. Como 
+fornecedor de Cloro teremos uma combinação de 9,3 Kg/h de CFC R11 fornecendo 7 kg/h 
+de cloro elementar e 16 kg/h de PVC fornecendo 8 kg/h de cloro elementar no sistema. 
+Para essa taxa de 15 kg/h de cloro será adicionado 12 kg/h de carvão ativado. 
+Página 34 
+
+===== PAGINA 34 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+ Execução do Teste de Queima 
+ 
+O teste de queima consistirá na adição das barricas contendo os resíduos previamente 
+preparados e o monitoramento simultâneo das emissões atmosféricas, a fim de se 
+confirmar a performance do sistema e o  atendimento dos li mites de emissão impostos 
+pela legislação. 
+Neste teste será considerado como “Principal Composto Orgânico Perigoso” (PCOP) o 
+triclorofluormetano (CFC R11). A Eficiência de Destruição e Remoção (EDR) será verificada 
+através do balanço de massa do CFC R11, c onsiderando a diferença entre a massa 
+alimentada no forno rotativo e as massas emitidas na chaminé. A eficiência de remoção 
+e destruição será calculada de acordo com o item 4.1.2.2 da NBR 11.175. 
+Deverão ser atendidos no teste os limites estabelecidos pelo CONAMA 316 e NBR 11.175, 
+apresentados no quadro 5. 
+ 
+Quadro 5: Limites de Emissões Atmosféricas. 
+ 
+ 
+Seq 
+ 
+Descrição do Parâmetro 
+ 
+UND 
+ 
+Valor Correção 
+O2 
+ 
+Referência 
+1 Material particulado – MP mg/Nm3 < 50,0 7%  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Licença de 
+Operação 
+2 Óxidos de enxofre – SOx mg/Nm3 < 250,0 7% 
+3 Óxidos de nitrogênio - NOx mg/Nm3 < 400,0 7% 
+4 Ácido clorídrico – HCl mg/Nm3 < 70,0 7% 
+5 Ácido fluorídrico - HF mg/Nm3 < 5,0 7% 
+6 Dioxinas e Furanos - DFE ng/Nm3 < 0,14 7% 
+7 Monóxido de Carbono - CO ppm < 100 (1) 7% 
+8 Metais Classe I (2) mg/Nm3 < 0,28 7% 
+9 Metais Classe II (3) mg/Nm3 < 1,4 7% 
+10 Metais Classe III (4) mg/Nm3 < 7,0 7% 
+Página 35 
+
+===== PAGINA 35 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+Observações: 
+ 
+ Concentração de CO poderá permanecer na faixa “100 ppm < [CO] < 500 ppm” por 
+um período de até 10 minutos, após es se período a alimentação de resíduos na 
+unidade deverá ser interrompido até que se reestabeleçam as condições de operação 
+normais; 
+ Metais Classe I: Cádmio. 
+ Metais Classe II: Arsênio, Cobalto, Níquel e Selênio. 
+ Metais Classe III: Antimônio, Chumbo Cianeto, Cobre, Cromo, Estanho, Flúor, 
+Manganês e Vanádio. 
+Página 36 
+
+===== PAGINA 36 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+11. Apresentação dos Resultados e Diretrizes Operacionais 
+ 
+ 
+Ao final do teste de eficiência, será enviado a CETESB um relatório de conclusão dos testes 
+contendo: 
+● Todos os dados coletados em campo; 
+● Laudos dos insumos utilizados no teste; 
+● Taxa de alimentação real das massas dos compostos de interesse; 
+● Concentrações e taxas de emissão; 
+● Características do efluente gasoso na seção amostrada, tais como: 
+ 
+temperatura, pressão, umidade em volume, ORSAT (CO2, CO, O2 e N2), velocidade, vazão 
+condição atual e vazão condição normal base seca, etc; ∙ 
+Planilhas contendo as condições operacionais mantidas durante a execução dos testes de 
+eficiência. 
+O relatório de conclusão conterá ainda todas as informações pertinentes que forem 
+agregadas ao teste durante a sua  execução. A data de entrega do relatório  deve ocorrer 
+em até 60 dias da realização do teste, em função dos prazos de  entrega dos laudos de 
+emissões atmosféricas. 
+Espera-se, ao final do teste, confirmar as estimativas de taxa de alimentação 
+apresentadas no Quadro 6. 
+Quadro 6: Taxas previstas de alimentação dos parâmetros de interesse 
+ 
+ 
+Composto 
+Interesse 
+Taxa de 
+Alimentação 
+ 
+ 
+Referência 
+Und Valor 
+Dioxinas e furanos  kg/h 8,0 Teste Queima 
+CFC R11  kg/h 7,0 Teste Queima 
+Enxofre  kg/h 23,8 Teste Queima 
+Nitrogênio  kg/h 28,8 Teste Queima 
+Página 37 
+
+===== PAGINA 37 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+Flúor  kg/h 2,0 Teste Queima 
+HCl/Cl2 (Cloro)  kg/h 8,0 Teste Queima 
+Cianeto  g/h 108 Teste Queima 
+Antimônio g/h 106 Teste Queima 
+Arsênio  g/h 105 Teste Queima 
+Cádmio g/h 100 Teste Queima 
+Chumbo g/h 594 Teste Queima 
+Cobalto g/h 108 Teste Queima 
+Cobre g/h 200 Teste Queima 
+Cromo g/h 510 Teste Queima 
+Estanho g/h 300 Teste Queima 
+Manganês g/h 504 Teste Queima 
+Níquel g/h 108 Teste Queima 
+Selênio g/h 109,8 Teste Queima 
+Vanádio g/h 100,8 Teste Queima 
+Mercúrio g/h 1,0 NBR-11.175/1990 
+Tálio  g/h < LQ NBR-11.175/1990 
+Telúrio  g/h < LQ NBR-11.175/1990 
+Paládio  g/h < LQ NBR-11.175/1990 
+Platina  g/h 2,0 NBR-11.175/1990 
+Rhódio  g/h 2,0 NBR-11.175/1990 
+Obs: 
+ 
+No caso do Tálio, Telúrio e Paládio será adotado o LQ em função de restrições técnicas do 
+método de extração que impedem a verificação dos limites sugeridos pela NBR - 
+11.175/1990. 
+Página 38 
+
+===== PAGINA 38 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+12. CONCLUSÃO 
+ 
+Os Resultados apresentados no estudo de estimativa de emissão de gases atmosféricos, 
+apresentados no quadro 2, demonstram que para o parâmetros apresentados no mesmo, 
+a operação de incineração na planta da INCILIX, pode ocorrer sem maiores restrições, uma 
+vez que os resultados obtidos, estão abaixo dos limítrofes expostos na Resolução 
+CONAMA 316/2002 e no decreto Estadual 59.113 de 2013 . 
+A fim de manter a uma  margem segura, a inertização das cinzas e escórias oriundas do 
+processo de incineração de RSS, deve passar por processo de inertização, precedendo o 
+encaminhamento das mesmas para um aterro sanitário de classe I. 
+Face ao exposto, pode se concluir que há a dequação para o funcionamento do 
+incinerador aqui propostos, com as condicionantes restritivas  de se manter uma queima 
+diária não superior a 10000 kg de resíduo por dia ou 2000t/ano, para que se  
+mantenham os devidos enquadramentos legais de emissões gasosas. 
+ 
+O presente documento foi revisado em conformidade com as exigências técnicas da 
+CETESB, contemplando a adequação da metodologia de estimativa de emissões 
+atmosféricas, a apresentação dos resultados em termos de kg/h e t/ano e a utilização 
+dos limites de emissão aplicáveis ao empreendimento, assegurando a consistência 
+técnica e regulatória para a continuidade do processo  de licenciamento ambiental.
+Página 39 
+
+===== PAGINA 39 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+13. GARANTIA, ASSINATURA E APROVAÇÃO 
+ 
+É salutar informar que todos os dados e observações apresentados neste relatório são 
+registros precisos e verdadeiros gerados a partir de fontes de validação de efluentes 
+gasosos, com aplicação de metodologias de cálculos estatísticos e programas apropriados 
+para a determinação das estimativas de emissões gasosas da planta da INCILIX e os 
+resultados são fidedignos. 
+ 
+Por aprovar o processo de incineração de resíduos de saúde (RSS) aqui proposto, atesto 
+a adequada a planta de incineração motivo deste plano. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Resp. Técnico: Rogério A. S. Reis 
+Bacharel em Química 
+CRQ:04200667 
+ART nº 1285/2025 
+Página 40 
+
+===== PAGINA 40 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+14. REFERENCIA BIBLIOGRÁFICAS 
+AL-KHATIB, I. A.; AL -QAROOT, Y. S.; ALI -SHTAYEH, M. S. Management of healthcare waste in 
+circumstances of limited resources: A case study in the hospitals of Nablus city,  Palestine. Waste 
+Management and Research, v. 27, n. 4, p. 305–312, 2009. 
+CAPOOR, M. R.; BHOWMIK, K. T. Current perspectives on biomedical waste management: Rules, 
+conventions and tr eatment technologies. Indian Journal of Medical Microbiology, v. 35, n. 2, p. 
+157–164, 2017. 
+ 
+CETESB – Companhia Ambiental do Estado de São Paulo . Autuações. 2022. Disponível em: 
+https://cetesb.sp.gov.br/documentos-emitidos/autuacoes/#1580923476038-e359c741-ffd4. 
+Acesso em 10 junho de 2025. 
+ 
+CORVALAN, C. et al. Towards climate resilient and environmentally sustainable health care 
+facilities. International Journal of Environmental Research and Public Health, v. 17, n. 23, p. 1–18, 
+2020. 
+ 
+DATTA, P.; MOHI, G.;  CHANDER, J. Biomedical waste management in India: Critical appraisal. 
+Journal of Laboratory Physicians, v. 10, n. 01, p. 006–014, 201 
+ 
+Resolução CONAMA nº 306, de 5 de julho de 2002. Licenciamento Ambiental – Normas e 
+procedimentos. Brasília, DF, D.O.U., n. 138, de 19 de julho de 2002, Seção I, p. 75-76. 
+ 
+https://conama.mma.gov.br/index.php?option=com_sisconama&task=documento.download&i 
+d=4107#:~:text=TE%20SOx%20=%202SP%20*%20%5B(100,17%20t/dia%20de%20SOx. 
+ 
+IPCC - Intergovernmental Panel on Climate Change. (2006) 2006 IPCC Guidelines for National 
+Greenhouse Gas Inventories. IGES, Japan. 
+https://www.epe.gov.br/sites-pt/areas-de-atuacao/estudos- 
+socioambientais/SiteAssets/Paginas/Emissoes-de-Gases-de-Efeito- 
+Estufa/Informativo%20Tecnico_11-2022_fatores%20de%20emiss%C3%A3oSMA.pdf. 
+ 
+HOLT, E.; RAVIO, P Use of Gasification Residues in Compacted Concrete Paving Blocks. The 
+Tecnical Research Center of Finland, 2005. 
+ 
+ICDD- International Center for Diffraction Data. PDF-2, 2011. 
+ 
+LIMA, S. A.; ROSSIGNOLO, J. A. Análise preliminar da viabilidade do uso da cinza da casca da 
+castanha de caju em produtos para construção civil In: SEMINÁRIO DESENVOLVIMENT O 
+SUSTENTÁVEL E A RECICLAGEM NA CONSTRUÇÃO CIVIL, 8., 2007, Bento Gonçalves. Anais... São 
+Paulo: IBRACON, 2007. 
+KHENDAKER, M.; HOSSAIN , A. Properties of Volcanic Pumice Based Cement and Lightweigth 
+Concrete. Cement and Concrete Research, 2004, v 34, p.283-291. 
+Página 41 
+
+===== PAGINA 41 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+ 
+ 
+ 
+15. ANEXOS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+15.1.1. ART – ATESTADO DE RESPONSABILIDADE TÉCNICA 
+Página 42 
+
+===== PAGINA 42 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+15.1.2. REGISTRO FOTOGRÁFICO 
+Página 43 
+
+===== PAGINA 43 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Foto 1:Imagem do Ciclone no Sistema de Tratamento de Emissões Gasosas. 
+Página 44 
+
+===== PAGINA 44 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+ 
+ 
+ 
+ 
+Foto 2: Imagem do Filtro de Carvão ativado no sistema de tratamento de emissões gasosas. 
+Página 45 
+
+===== PAGINA 45 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Foto 3: Imagem do compartimento de Filtro de Manga e exaustor no sistema de tratamento de emissões gasosas. 
+Página 46 
+
+===== PAGINA 46 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+ 
+ 
+ 
+ 
+Foto 4: Imagem Fotográfica dos chuveiros do resfriador no sistema de tratamento de emissões gasosas. 
+Página 47 
+
+===== PAGINA 47 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+ 
+ 
+ 
+Foto 5: Imagem do Filtro de Manga e exaustor no sistema de tratamento de emissões gasosas. 
+Página 48 
+
+===== PAGINA 48 =====
+contatormambiental@gmail.com 
+RM CONSULTORIA AMBIENTAL E INTERMEDIAÇÃO DE NEGOCIOS LTDA 
+CNPJ: 29.128.192/0001-06 
+ 
+ 
+ 
+ 
+ 
+ 
+Foto 6: Imagem do Filtro de Cal hidratado e ciclone no sistema de tratamento de emissões gasosas. 
+Página 49 
+
+===== PAGINA 49 =====
+ 
+ 
+SERVIÇO PÚBLICO FEDERAL 
+CONSELHO REGIONAL DE QUÍMICA IV REGIÃO - SÃO PAULO 
+RUA OSCAR FREIRE, 2039 - PINHEIROS - 05409-011 - SÃO PAULO / SP 
+www.crqsp.org.br 
+ 
+Certidão de Anotação de Responsabilidade Técnica (ART PF - Autônomo) 
+Nº 1285/2025 
+CERTIFICO para os devidos fins, a pedido do profissional da química que, conforme documentação apresentada, foi 
+procedida a Anotação de Responsabilidade Técnica relativa a prestação de serviço: 
+Análise de estimativa estequiométrica  de emissão de efluentes gasosos em incinerador de resíduos de 
+saúde, abrangendo tanto o aspectos quantitativos,  quanto qualitativo dos fluidos liberados na 
+combustão, na empresa INCILIX INCINERADORA  LTDA, C.N.P.J. Nº 33.470.575/0001 -27, localizada na 
+Rua João Paulo I, 315-A, na cidade de Caieiras/SP, conforme Declaração datada de 08/09/2025 
+Período de Execução: 01/08/2025 a 29/08/2025  
+Envolvendo as partes: 
+Contratante: 
+Razão Social: RM Ambiental Intermediação de Negócios LTDA 
+CNPJ: 29.128.192/0001-06 
+Endereço: AV PAULISTA, 1471 - Conjunto 1110 - BELA VISTA CEP:01310-100 - SÃO PAULO-SP  
+ 
+Profissional da Química Contratado: 
+Processo CRQ-IV/SP: 88464 CPF: 157.586.478-96 
+Nome: ROGERIO ALVES DE SOUSA REIS Registro CRQSP: 04200667 
+Titulo profissional:  BACHAREL EM QUÍMICA 
+Atribuições da RN n° 36/74 do CFQ de números 01,02,03,04,05,06, 07,08,09,10,11,12 e 13  
+ 
+Certificamos ainda que as informações contidas na documentação apresentada são de inteira responsabilidade das 
+partes envolvidas. 
+Este documento não substitui a Certidão de Anotação de Responsabilidade Técnica - ART que atesta regularidade do 
+registro do estabelecimento e de seu responsável técnico perante o CRQ-IV/SP. 
+ 
+ 
+A aceitação desta certidão está condicionada à verificação de sua autenticidade na 
+internet, no endereço www.crqsp.org.br/consultadoc 
+ 
+São Paulo, 22 de setembro de 2025. 
+ 
+ 
+José Antonio de Jesus Sacco 
+Gerente de Secretaria 
+ 
+Verificação de autenticidade 
+SLFD-66RX-TNU6 
+ 
+ 
+ 
+ 
+SAMUEL 
+BARBIERI 
+PIMENTEL 
+DA SILVA 
+Assinado de forma 
+digital por SAMUEL 
+BARBIERI PIMENTEL 
+DA SILVA 
+Dados: 2025.09.23 
+10:41:40 -03'00' 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Documento assinado digitalmente por CRQ-IV 
+Data: 22/09/2025 11:47:05 
+
+
+===== PAGINA 50 =====
+ 
+ 
+ 
+TERMO DE RESPONSABILIDADE 
+Interessado: 
+Razão Social: INCILIX INCINERADORA LTDA 
+CNPJ: 33.470.575/0001-27 
+Endereço: Rua João Paulo I, nº 315 A – Parque Industrial Araucária – Caieiras/SP 
+Município: Caieiras/SP 
+Telefone: (11) 97595-4015 
+E-mail: contatormambiental@gmail.com 
+Processo CETESB nº: 086342/2021-60 
+Atividade/Empreendimento: Unidade de Incineração de Resíduos de Serviços de Saúde 
+Endereço do Empreendimento: Rua João Paulo I, nº 315 A – Parque Industrial Araucária – 
+Caieiras/SP 
+DECLARAÇÃO 
+Pelo presente Termo de Responsabilidade, a empresa INCILIX INCINERADORA LTDA, na 
+qualidade de interessada no processo de licenciamento ambiental junto à CETESB – 
+Companhia Ambiental do Estado de São Paulo, declara, sob as penas da lei: 
+1. Que todas as informações prestadas, documentos apresentados e declarações 
+fornecidas no âmbito do processo acima identificado são verdadeiras, completas e 
+fidedignas; 
+2. Que assume total responsabilidade civil, administrativa e criminal pelas informações 
+prestadas, bem como pelas consequências legais decorrentes de qualquer falsidade, 
+omissão ou inexatidão; 
+3. Que tem ciência de que a constatação de falsidade documental ou de informações 
+poderá ensejar o indeferimento ou cancelamento da licença ambiental eventualmente 
+concedida, sem prejuízo das sanções legais cabíveis; 
+4. Que cumprirá integralmente as exigências legais, técnicas e ambientais aplicáveis ao 
+empreendimento ou atividade, responsabilizando-se pela execução das medidas de 
+controle ambiental, monitoramento, mitigação e/ou compensação eventualmente 
+requeridas pela CETESB. 
+Local e Data: Caieiras/SP, 30 de Junho de 2025. 
+Responsável Técnico: 
+Nome: Rogério Alves de Sousa Reis 
+CRQ: 04200667 
+ 
+Assinatura:   
+ 
+ 
+contatormambiental@gmail.com 
+RM CONSULTORIA  AMBIENTAL  E INTERMEDIAÇÃO  DE NEGOCIOS  LTDA 
+CNPJ: 29.128.192/0001 -06 
