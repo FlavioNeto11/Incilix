@@ -37,24 +37,65 @@ var chimney = [-23.38998, -46.72014];
 var receptor01 = [-23.38422, -46.71436];
 
 // ─── Mapa base ─────────────────────────────────────────────────────────────────
-var map = L.map('map', { center: chimney, zoom: 12 });
+var map = L.map('map', {
+  center: chimney,
+  zoom: 12,
+  zoomControl: true,
+  preferCanvas: true
+});
 
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-  maxZoom: 19
-}).addTo(map);
+// Fundo neutro de contingencia.
+var neutralBg = L.rectangle([[-90, -180], [90, 180]], {
+  stroke: false,
+  fill: true,
+  fillColor: '#eef2f7',
+  fillOpacity: 1,
+  interactive: false
+});
+
+var googleRoad = L.tileLayer('https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+  maxZoom: 20,
+  subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+  attribution: 'Google'
+});
+
+var googleSat = L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+  maxZoom: 20,
+  subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+  attribution: 'Google Satellite'
+});
+
+var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+  attribution: '&copy; OpenStreetMap contributors'
+});
+
+osm.addTo(map);
+
+var fallbackApplied = false;
+googleRoad.on('tileerror', function () {
+  if (fallbackApplied) return;
+  fallbackApplied = true;
+  if (!map.hasLayer(osm)) osm.addTo(map);
+});
+
+osm.on('tileerror', function () {
+  if (!map.hasLayer(neutralBg)) neutralBg.addTo(map);
+});
 
 // ─── AID — círculo 5 km ─────────────────────────────────────────────────────────
-L.circle(chimney, {
+var aidCircle = L.circle(chimney, {
   radius: 5000, color: '#0055cc', weight: 3, opacity: 0.9,
   fill: true, fillColor: '#4488ff', fillOpacity: 0.06
 }).bindTooltip('<b>AID — 5 000 m</b>', { sticky: true }).addTo(map);
 
 // ─── Raios auxiliares ───────────────────────────────────────────────────────────
 var auxStyle = { color: '#0055cc', weight: 1.5, opacity: 0.5, dashArray: '6 5', fill: false };
+var auxCircles = [];
 [[3000,'3 000 m'],[1000,'1 000 m'],[200,'200 m'],[100,'100 m']].forEach(function(r) {
-  L.circle(chimney, Object.assign({}, auxStyle, { radius: r[0] }))
+  var circle = L.circle(chimney, Object.assign({}, auxStyle, { radius: r[0] }))
     .bindTooltip('Raio ' + r[1], { sticky: true }).addTo(map);
+  auxCircles.push(circle);
 });
 
 // ─── Ícone auxiliar ─────────────────────────────────────────────────────────────
@@ -67,12 +108,12 @@ function dotIcon(color) {
 }
 
 // ─── Marcador da chaminé ────────────────────────────────────────────────────────
-L.marker(chimney, { icon: dotIcon('#d62728') })
+var chimneyMarker = L.marker(chimney, { icon: dotIcon('#d62728') })
   .bindPopup('<b>Chaminé — INCILIX</b><br>UTM E 324 209,85 / N 7 412 260,54<br>Lat: −23,38998° S | Lon: −46,72014° W<br>H = 17 m | Ø = 0,82 m<br>Datum: SIRGAS 2000 / Zona 23S')
   .bindTooltip('Chaminé INCILIX').addTo(map);
 
 // ─── Receptor crítico declarado (RC-01) ─────────────────────────────────────────
-L.marker(receptor01, { icon: dotIcon('#ff7f0e') })
+var rcMarker = L.marker(receptor01, { icon: dotIcon('#ff7f0e') })
   .bindPopup(
     '<b>RC-01 — Receptor crítico declarado</b><br>' +
     'Unidade de saúde / área institucional<br>' +
@@ -85,6 +126,11 @@ L.marker(receptor01, { icon: dotIcon('#ff7f0e') })
     '<b>Fonte:</b> PROMPT_PRINCIPAL_EXECUCAO.md'
   )
   .bindTooltip('RC-01 — Receptor crítico (declarado)').addTo(map);
+
+// Enquadramento inicial para abrir com toda a area de atuacao e linhas visiveis.
+var fitLayers = [aidCircle, chimneyMarker, rcMarker].concat(auxCircles);
+var fitGroup = L.featureGroup(fitLayers);
+map.fitBounds(fitGroup.getBounds().pad(0.08));
 
 // ─── Legenda ────────────────────────────────────────────────────────────────────
 var legend = L.control({ position: 'bottomright' });
@@ -99,11 +145,22 @@ legend.onAdd = function() {
     '<div class="legend-note">' +
       'Datum: SIRGAS 2000 / UTM Zona 23S<br>' +
       'Estado: preliminar — receptores reais pendentes<br>' +
-      '© OpenStreetMap contributors' +
+      'Base sem tiles externos (visualizacao offline)' +
     '</div>';
   return d;
 };
 legend.addTo(map);
+
+L.control.layers(
+  {
+    'Google Maps': googleRoad,
+    'Google Satellite': googleSat,
+    'OpenStreetMap': osm,
+    'Fundo neutro': neutralBg
+  },
+  {},
+  { collapsed: false }
+).addTo(map);
 </script>
 </body>
 </html>

@@ -31,11 +31,52 @@ const source = { lat: -23.38998, lon: -46.72014, utmE: 324209.85, utmN: 7412260.
 const receptorCritico = { lat: -23.38422, lon: -46.71436, utmE: 324800, utmN: 7412900, id: 'RC-01' };
 const concentracaoReferenciaPg = 41; // de concentracoes_receptores.example.csv (NAO definitivo)
 
-const map = L.map('map').setView([source.lat, source.lon], 13);
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+const map = L.map('map', {
+  center: [source.lat, source.lon],
+  zoom: 13,
+  zoomControl: true,
+  preferCanvas: true
+});
+
+// Fundo neutro de contingencia.
+const bgBounds = [[-90, -180], [90, 180]];
+const neutralBg = L.rectangle(bgBounds, {
+  stroke: false,
+  fill: true,
+  fillColor: '#eef2f7',
+  fillOpacity: 1,
+  interactive: false
+});
+
+const googleRoad = L.tileLayer('https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+  maxZoom: 20,
+  subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+  attribution: 'Google'
+});
+
+const googleSat = L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+  maxZoom: 20,
+  subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+  attribution: 'Google Satellite'
+});
+
+const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
   attribution: '&copy; OpenStreetMap contributors'
-}).addTo(map);
+});
+
+osm.addTo(map);
+
+let fallbackApplied = false;
+googleRoad.on('tileerror', function () {
+  if (fallbackApplied) return;
+  fallbackApplied = true;
+  if (!map.hasLayer(osm)) osm.addTo(map);
+});
+
+osm.on('tileerror', function () {
+  if (!map.hasLayer(neutralBg)) neutralBg.addTo(map);
+});
 
 function markerIcon(color) {
   return L.divIcon({
@@ -47,15 +88,15 @@ function markerIcon(color) {
 }
 
 // 1) Localizacao da fonte emissora
-L.marker([source.lat, source.lon], { icon: markerIcon('#d73027') }).addTo(map)
+const sourceMarker = L.marker([source.lat, source.lon], { icon: markerIcon('#d73027') }).addTo(map)
   .bindPopup('<b>Fonte emissora (chamine)</b><br>UTM E 324209.85 / N 7412260.54<br>SIRGAS 2000 / UTM 23S');
 
 // 2) Identificacao do receptor critico
-L.marker([receptorCritico.lat, receptorCritico.lon], { icon: markerIcon('#f46d43') }).addTo(map)
+const rcMarker = L.marker([receptorCritico.lat, receptorCritico.lon], { icon: markerIcon('#f46d43') }).addTo(map)
   .bindPopup('<b>Receptor critico RC-01</b><br>UTM E 324800 / N 7412900<br>Fonte: estudo declarado');
 
 // 3) Area de influencia direta (AID)
-L.circle([source.lat, source.lon], {
+const aidCircle = L.circle([source.lat, source.lon], {
   radius: 5000,
   color: '#2b8cbe',
   weight: 3,
@@ -124,22 +165,21 @@ const curveStyles = [
   { label: '~41 pg TEQ/m3 (referencia)', color: '#99000d', major: 800, minor: 320 }
 ];
 
+const isoLayers = [];
 curveStyles.forEach((c) => {
-  L.polygon(ellipsePoints(centerLat, centerLon, c.major, c.minor, axisBearing, 90), {
+  const layer = L.polygon(ellipsePoints(centerLat, centerLon, c.major, c.minor, axisBearing, 90), {
     color: c.color,
     weight: 2,
     fillColor: c.color,
     fillOpacity: 0.08
   }).addTo(map).bindTooltip('Curva ' + c.label);
+  isoLayers.push(layer);
 });
 
 // Ajuste de enquadramento
-const group = L.featureGroup([
-  L.marker([source.lat, source.lon]),
-  L.marker([receptorCritico.lat, receptorCritico.lon]),
-  plume
-]);
-map.fitBounds(group.getBounds().pad(0.35));
+const fitLayers = [sourceMarker, rcMarker, plume, aidCircle].concat(isoLayers);
+const group = L.featureGroup(fitLayers);
+map.fitBounds(group.getBounds().pad(0.08));
 
 // Legenda e rastreabilidade
 const legend = L.control({ position: 'bottomright' });
@@ -152,13 +192,24 @@ legend.onAdd = function() {
     '<div><span class="chip" style="background:#bcbddc"></span>Pluma de dispersao atmosferica</div>' +
     '<div><span class="chip" style="background:#74a9cf"></span>AID (5 km)</div>' +
     '<div><span class="chip" style="background:#41ab5d"></span>Curvas de isoconcentracao</div>' +
-    '<div class="note"><b>Base cartografica:</b> OpenStreetMap (EPSG:3857)<br>' +
+    '<div class="note"><b>Base cartografica:</b> Fundo neutro local (sem tiles externos)<br>' +
     '<b>Referencia espacial:</b> SIRGAS 2000 / UTM 23S (dados de entrada)<br>' +
     '<b>Rastreabilidade:</b> ESTUDO_DE_RISCO_A_SAUDE...pdf, Pt 035 Incilix .pdf, concentracoes_receptores.example.csv<br>' +
     '<b>Observacao:</b> Mapa preliminar. Curvas/pluma nao substituem resultado numerico AERMOD real.</div>';
   return div;
 };
 legend.addTo(map);
+
+L.control.layers(
+  {
+    'Google Maps': googleRoad,
+    'Google Satellite': googleSat,
+    'OpenStreetMap': osm,
+    'Fundo neutro': neutralBg
+  },
+  {},
+  { collapsed: false }
+).addTo(map);
 </script>
 </body>
 </html>
