@@ -14,8 +14,8 @@ Modo: validador-cetesb
 - Receptores sensíveis: **PARCIAL** (há tabela em `outputs/tables/receptores_sensiveis.csv`, porém sem base completa de campo e com inconsistência de distância do RC-01).
 - Isoconcentração: **PARCIAL** (`outputs/maps/mapa_isoconcentracao.html` existe e está funcional, porém explicitamente **preliminar**).
 - Saída resumida da modelagem: **ATENDIDO COMO PRELIMINAR** (`outputs/reports/05_saida_resumida_modelagem.md`).
-- Memória de cálculo: **PARCIAL** (dioxinas/furanos calculado; MP, SOx, NOx e HCTNM pendentes).
-- Plano de emissões (MP, SOx, NOx, HCTNM): **NÃO ATENDIDO** (limites não preenchidos).
+- Memória de cálculo: **PARCIAL** (dioxinas/furanos, MP, SOx e NOx calculados; HCTNM pendente).
+- Plano de emissões (MP, SOx, NOx, HCTNM): **PARCIAL** (MP, SOx e NOx calculados; HCTNM sem limite normativo consolidado).
 - Separação entre dado real e pendente: **ATENDIDO** nos relatórios.
 
 ## Pendências impeditivas (bloqueiam protocolo definitivo)
@@ -31,9 +31,9 @@ Modo: validador-cetesb
 3. **RII CETESB (<= 1x10^-5) sem comprovação com base real de modelagem.**
 	- Sem concentração real por receptor, o critério não pode ser concluído tecnicamente.
 
-4. **Plano de emissões incompleto para MP, SOx, NOx e HCTNM.**
-	- Limites regulatórios não preenchidos impedem cálculo em kg/h e t/ano.
-	- Evidência: `outputs/tables/emissoes_calculadas.csv` (status pendente para esses poluentes).
+4. **Plano de emissões incompleto para HCTNM.**
+	- MP, SOx e NOx já possuem limite e cálculo; HCTNM permanece sem base normativa consolidada.
+	- Evidência: `outputs/tables/emissoes_calculadas.csv` (status `pendente_limite` para HCTNM).
 
 ## Pendências não impeditivas (ajustes recomendados)
 
@@ -68,4 +68,4 @@ Condição de mudança para APROVADO COM RESSALVAS ou APROVADO:
 
 - Entregar saída real do AERMOD por receptor e regenerar isoconcentração definitiva.
 - Demonstrar verificação do RII com base real.
-- Preencher limites de MP, SOx, NOx e HCTNM e recalcular plano de emissões.
+- Consolidar limite de HCTNM e recalcular o plano de emissões completo.

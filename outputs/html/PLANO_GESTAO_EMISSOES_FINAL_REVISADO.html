@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plano de Gestao de Emissoes Atmosfericas - Revisao Tecnica Final</title>
+  <style>
+    :root {
+      --text: #1f2937;
+      --muted: #4b5563;
+      --line: #d1d5db;
+      --accent: #0b4f8a;
+      --warn-bg: #fff7e6;
+      --warn-line: #f1cf8b;
+      --ok-bg: #eaf7ef;
+      --ok-line: #9fd3b0;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      color: var(--text);
+      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+      font-size: 12pt;
+      line-height: 1.5;
+      background: #ffffff;
+    }
+    .page {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 28px 38px;
+    }
+    h1, h2, h3 {
+      margin: 0;
+      line-height: 1.25;
+      color: #0f2f4f;
+    }
+    h1 {
+      font-size: 24pt;
+      margin-bottom: 8px;
+    }
+    h2 {
+      margin-top: 24px;
+      font-size: 16pt;
+      border-top: 1px solid var(--line);
+      padding-top: 12px;
+      color: var(--accent);
+    }
+    h3 {
+      margin-top: 14px;
+      font-size: 13pt;
+      color: #1f3f61;
+    }
+    p { margin: 10px 0; }
+    ul, ol {
+      margin: 8px 0 0 20px;
+      padding: 0;
+    }
+    li { margin: 6px 0; }
+    .meta {
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+    .box {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 12px;
+      margin-top: 10px;
+      background: #fafafa;
+    }
+    .box.warn {
+      background: var(--warn-bg);
+      border-color: var(--warn-line);
+    }
+    .box.ok {
+      background: var(--ok-bg);
+      border-color: var(--ok-line);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 11pt;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 8px;
+      vertical-align: top;
+      text-align: left;
+    }
+    th {
+      background: #eef3f8;
+      color: #183a5a;
+      font-weight: 600;
+    }
+    .small { font-size: 10.5pt; color: var(--muted); }
+    .footer {
+      margin-top: 26px;
+      border-top: 1px solid var(--line);
+      padding-top: 10px;
+      color: var(--muted);
+      font-size: 10.5pt;
+    }
+    @media print {
+      .page {
+        max-width: none;
+        margin: 0;
+        padding: 18mm 16mm;
+      }
+      a { color: inherit; text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Plano de Gestao de Emissoes Atmosfericas</h1>
+    <div class="meta">Revisao tecnica final para protocolo ambiental | Data: 15/04/2026 | Empreendimento: INCILIX Incineradora Ltda.</div>
+
+    <div class="box ok">
+      <strong>Classificacao da versao:</strong> Aprovado com ressalvas tecnicas controladas.
+      Esta revisao corrige as inconsistencias identificadas na validacao executiva e estabelece criterios claros de fechamento para protocolo definitivo.
+    </div>
+
+    <h2>1. Objetivo e Escopo</h2>
+    <p>
+      Este plano consolida as diretrizes de controle, monitoramento e estimativa de emissao atmosferica da unidade,
+      com foco em aderencia regulatoria, consistencia metrologica e rastreabilidade tecnica.
+      O documento cobre emissao em massa horaria e anual, criterios operacionais, limites aplicaveis e plano de saneamento das lacunas remanescentes.
+    </p>
+
+    <h2>2. Premissas Operacionais e Criticas</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Parametro</th>
+          <th>Valor Adotado</th>
+          <th>Observacao Tecnica</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Vazao nominal da chamine</td>
+          <td>12.000 Nm3/h</td>
+          <td>Premissa base para conversao de limites de concentracao em emissao de massa.</td>
+        </tr>
+        <tr>
+          <td>Regime anual de operacao</td>
+          <td>20 h/dia e 300 dias/ano (6.000 h/ano)</td>
+          <td>Premissa para fechamento da emissao anual (t/ano).</td>
+        </tr>
+        <tr>
+          <td>Classe de controle</td>
+          <td>Operacao com monitoramento e mitigacao</td>
+          <td>Obrigatorio manter consistencia entre monitoramento operacional e limites de emissao.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>3. Metodologia de Conversao e Apuracao</h2>
+    <p>As estimativas de emissao seguem as expressoes padrao:</p>
+    <ul>
+      <li><strong>Emissao (kg/h)</strong> = Limite (mg/Nm3) x Vazao (Nm3/h) / 1.000.000</li>
+      <li><strong>Emissao (t/ano)</strong> = Emissao (kg/h) x Horas anuais / 1.000</li>
+    </ul>
+    <p class="small">
+      Para dioxinas e furanos, a conversao utiliza unidade em ng/Nm3 e segue equivalencia de massa correspondente, mantendo separacao clara entre unidade de concentracao e taxa de emissao.
+    </p>
+
+    <h2>4. Quadro Tecnico Consolidado de Emissoes</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Poluente</th>
+          <th>Limite de referencia</th>
+          <th>Emissao (kg/h)</th>
+          <th>Emissao (t/ano)</th>
+          <th>Status de fechamento</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Material particulado (MP)</td>
+          <td>50 mg/Nm3</td>
+          <td>0,60</td>
+          <td>3,60</td>
+          <td>Fechado</td>
+        </tr>
+        <tr>
+          <td>Oxidos de enxofre (SOx)</td>
+          <td>250 mg/Nm3</td>
+          <td>3,00</td>
+          <td>18,00</td>
+          <td>Fechado</td>
+        </tr>
+        <tr>
+          <td>Oxidos de nitrogenio (NOx)</td>
+          <td>400 mg/Nm3</td>
+          <td>4,80</td>
+          <td>28,80</td>
+          <td>Fechado</td>
+        </tr>
+        <tr>
+          <td>Dioxinas e furanos (TEQ)</td>
+          <td>0,14 ng/Nm3</td>
+          <td>1,68x10^-9</td>
+          <td>1,008x10^-8</td>
+          <td>Fechado</td>
+        </tr>
+        <tr>
+          <td>Hidrocarbonetos totais (HCT/HCTNM)</td>
+          <td>Aguardando consolidacao normativa</td>
+          <td>Nao aplicavel nesta revisao</td>
+          <td>Nao aplicavel nesta revisao</td>
+          <td>Pendente critico</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="box warn">
+      <strong>Correcao aplicada:</strong> foi removida a apresentacao de emissao numerica para hidrocarbonetos sem base normativa consolidada.
+      Qualquer valor para esse parametro fica condicionado a definicao formal do limite aplicavel no licenciamento.
+    </div>
+
+    <h2>5. Clarificacao de Grandezas (Correcao de Ambiguidade)</h2>
+    <ul>
+      <li><strong>Taxa de alimentacao de ensaio</strong> e variavel de processo para teste operacional.</li>
+      <li><strong>Taxa de emissao de chamine</strong> e variavel regulatoria para conformidade ambiental.</li>
+      <li>As duas grandezas nao sao intercambiaveis e nao devem ser comparadas diretamente sem modelo de conversao validado.</li>
+    </ul>
+
+    <h2>6. Integracao com Avaliacao de Dispersao e Risco</h2>
+    <p>
+      Este plano trata da componente de emissao em fonte. O fechamento regulatorio global depende da articulacao com a avaliacao de dispersao atmosferica
+      e analise de risco, de modo a garantir coerencia entre emissao estimada, concentracao ambiental e criterio de protecao a saude.
+    </p>
+    <p class="small">
+      A decisao de protocolo definitivo requer que a narrativa executiva da emissao esteja alinhada com os resultados consolidados da componente de risco.
+    </p>
+
+    <h2>7. Pendencias Remanescentes e Plano de Saneamento</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Pendencia</th>
+          <th>Criticidade</th>
+          <th>Ação de saneamento</th>
+          <th>Criterio de aceite</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Consolidacao normativa de HCT/HCTNM</td>
+          <td>Alta</td>
+          <td>Formalizar limite aplicavel e reprocessar quadro de emissao</td>
+          <td>Parametro fechado com base normativa explicita</td>
+        </tr>
+        <tr>
+          <td>Harmonizacao integral entre calculos, texto e quadro executivo</td>
+          <td>Alta</td>
+          <td>Revisao cruzada final das premissas e numeros</td>
+          <td>Ausencia de divergencias internas</td>
+        </tr>
+        <tr>
+          <td>Separacao formal entre dados de ensaio e emissao regulatoria</td>
+          <td>Media</td>
+          <td>Manter bloco explicativo permanente no documento final</td>
+          <td>Sem ambiguidade interpretativa em auditoria</td>
+        </tr>
+        <tr>
+          <td>Amarracao final entre emissao e avaliacao de risco</td>
+          <td>Media</td>
+          <td>Consolidar conclusao conjunta de conformidade</td>
+          <td>Prontidao para protocolo sem ressalvas</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>8. Conclusao Tecnica</h2>
+    <p>
+      A presente revisao corrige os pontos criticos de consistencia metodologica e estrutura o plano em formato adequado para tomada de decisao regulatoria.
+      O documento permanece <strong>aprovado com ressalvas</strong> ate o fechamento da base normativa de hidrocarbonetos e a consolidacao completa da integracao emissao-risco.
+      Atendidos os criterios de aceite definidos, a classificacao pode evoluir para <strong>aprovado para protocolo definitivo</strong>.
+    </p>
+
+    <div class="footer">
+      Documento emitido para suporte tecnico ao processo de licenciamento ambiental, com rastreabilidade metodologica e foco em conformidade regulatoria.
+    </div>
+  </div>
+</body>
+</html>

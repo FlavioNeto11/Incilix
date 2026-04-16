@@ -2,7 +2,7 @@
 
 **Empreendimento:** INCILIX Incineradora Ltda. — Caieiras/SP  
 **Data de geração:** 2026-04-15  
-**Status geral:** PARCIALMENTE CALCULADO — limites de MP, SOx, NOx e HCTNM pendentes
+**Status geral:** PARCIALMENTE CALCULADO — MP, SOx e NOx calculados; HCTNM pendente
 
 ---
 
@@ -84,14 +84,13 @@ Q_t_ano = 1,008×10⁻⁸ t/ano
 
 ---
 
-## 2. MP, SOx, NOx, HCTNM — Pendentes
+## 2. MP, SOx, NOx, HCTNM — Status atual
 
-Os limites de emissão desses poluentes não foram preenchidos no arquivo  
-`data/input/limites-emissao/limites.csv` (Parecer Técnico 010/25/IAA/IARS).  
-O cálculo das taxas ficará automaticamente disponível após preenchimento.
+Foi criado o arquivo `data/input/limites-emissao/limites.csv` com limites para MP, SOx e NOx com base no plano técnico revisado.  
+O parâmetro HCTNM permanece sem valor numérico por ausência de base normativa consolidada no processo.
 
-**Arquivo esperado:** `data/input/limites-emissao/limites.csv`  
-**Campos a preencher:** `limite` para MP, SOx, NOx e HCTNM (unidade: mg/Nm³)
+**Arquivo preenchido:** `data/input/limites-emissao/limites.csv`  
+**Pendência remanescente:** `limite` de HCTNM (unidade: mg/Nm³)
 
 ---
 
@@ -100,10 +99,10 @@ O cálculo das taxas ficará automaticamente disponível após preenchimento.
 | Poluente | Limite | Unidade | µg/h | g/s | kg/h | t/ano | Status |
 |---|---:|---|---:|---:|---:|---:|---|
 | Dioxinas e Furanos | 0,14 | ng/Nm³ | 1,68 | 4,667×10⁻¹⁰ | 1,68×10⁻⁹ | 1,008×10⁻⁸ | calculado |
-| MP | PENDENTE | mg/Nm³ | PENDENTE | PENDENTE | PENDENTE | PENDENTE | pendente |
-| SOx | PENDENTE | mg/Nm³ | PENDENTE | PENDENTE | PENDENTE | PENDENTE | pendente |
-| NOx | PENDENTE | mg/Nm³ | PENDENTE | PENDENTE | PENDENTE | PENDENTE | pendente |
-| HCTNM | PENDENTE | mg/Nm³ | PENDENTE | PENDENTE | PENDENTE | PENDENTE | pendente |
+| MP | 50 | mg/Nm³ | N/A | N/A | 0,6 | 3,6 | calculado |
+| SOx | 250 | mg/Nm³ | N/A | N/A | 3,0 | 18,0 | calculado |
+| NOx | 400 | mg/Nm³ | N/A | N/A | 4,8 | 28,8 | calculado |
+| HCTNM | PENDENTE | mg/Nm³ | PENDENTE | PENDENTE | PENDENTE | PENDENTE | pendente_limite |
 
 **Arquivo de limites esperado:** `data/input/limites-emissao/limites.csv`
 
@@ -118,5 +117,6 @@ O cálculo das taxas ficará automaticamente disponível após preenchimento.
 | Taxa 1,68 µg/h | Calculado nesta memória | calculado |
 | Taxa 4,6667×10⁻¹⁰ g/s | Calculado nesta memória | calculado |
 | Taxa 4,67×10⁻¹⁰ g/s | PROMPT_PRINCIPAL_EXECUCAO.md | resultado declarado no estudo |
-| Limite MP, SOx, NOx, HCTNM | limites.example.csv | pendente |
+| Limites MP, SOx e NOx | limites.csv | calculado |
+| Limite HCTNM | limites.csv | pendente (base normativa) |
 | Concentração R001 (41 pg TEQ/m³) | concentracoes_receptores.example.csv | arquivo de exemplo — não é resultado real |

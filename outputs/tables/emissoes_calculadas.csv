@@ -1,6 +1,6 @@
 poluente,limite,unidade_limite,vazao_nm3_h,taxa_ug_h,taxa_g_s,taxa_kg_h,taxa_t_ano,status,fonte
 Dioxinas e Furanos,0.14,ng/Nm3,12000,1.68,4.667e-10,1.68e-9,1.008e-8,calculado,dados conhecidos do estudo (PROMPT_PRINCIPAL_EXECUCAO.md)
-MP,PENDENTE,mg/Nm3,12000,PENDENTE,PENDENTE,PENDENTE,PENDENTE,pendente,limites.csv - Parecer Tecnico 010/25/IAA/IARS
-SOx,PENDENTE,mg/Nm3,12000,PENDENTE,PENDENTE,PENDENTE,PENDENTE,pendente,limites.csv - Parecer Tecnico 010/25/IAA/IARS
-NOx,PENDENTE,mg/Nm3,12000,PENDENTE,PENDENTE,PENDENTE,PENDENTE,pendente,limites.csv - Parecer Tecnico 010/25/IAA/IARS
-HCTNM,PENDENTE,mg/Nm3,12000,PENDENTE,PENDENTE,PENDENTE,PENDENTE,pendente,limites.csv - Parecer Tecnico 010/25/IAA/IARS
+MP,50,mg/Nm3,12000,N/A,N/A,0.6,3.6,calculado,PLANO_GESTAO_EMISSOES_FINAL_REVISADO.html
+SOx,250,mg/Nm3,12000,N/A,N/A,3,18,calculado,PLANO_GESTAO_EMISSOES_FINAL_REVISADO.html
+NOx,400,mg/Nm3,12000,N/A,N/A,4.8,28.8,calculado,PLANO_GESTAO_EMISSOES_FINAL_REVISADO.html
+HCTNM,PENDENTE,mg/Nm3,12000,PENDENTE,PENDENTE,PENDENTE,PENDENTE,pendente_limite,pendente_base_normativa

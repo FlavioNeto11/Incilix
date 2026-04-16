@@ -39,7 +39,7 @@ O presente relatório consolida a etapa de complementação documental do Estudo
 
 No âmbito desta execução, foram gerados os seguintes produtos técnicos: diagnóstico de lacunas documentais (Anexo 1), memória de cálculo de emissões com rastreabilidade de conversão de unidades (Anexo 2), mapa cartográfico da Área de Influência Direta (AID) de 5 km com receptor crítico declarado (Anexo 3), análise do status do mapa de isoconcentração (Anexo 4) e saída resumida dos parâmetros da modelagem atmosférica (Anexo 5). Todos os produtos são rastreáveis às fontes de dado indicadas neste documento.
 
-A memória de cálculo de emissões foi integralmente concluída para dioxinas e furanos, com verificação de consistência entre os valores declarados no estudo (1,68 µg/h; 4,67×10⁻¹⁰ g/s) e os valores recalculados independentemente (divergência de 0,07% — atribuída unicamente a arredondamento). Para os demais poluentes identificados no Plano de Emissões (MP, SOx, NOx e HCTNM), os cálculos permanecem bloqueados pela ausência dos limites regulatórios provenientes do Parecer Técnico 010/25/IAA/IARS.
+A memória de cálculo de emissões foi integralmente concluída para dioxinas e furanos, com verificação de consistência entre os valores declarados no estudo (1,68 µg/h; 4,67×10⁻¹⁰ g/s) e os valores recalculados independentemente (divergência de 0,07% — atribuída unicamente a arredondamento). Para MP, SOx e NOx, os limites foram preenchidos e os cálculos em kg/h e t/ano foram executados; para HCTNM, o fechamento permanece bloqueado pela ausência de base normativa consolidada no processo.
 
 O mapa de isoconcentração **preliminar** foi gerado nesta execução para fins cartográficos, com identificação de fonte emissora, pluma de dispersão, curvas indicativas, receptor crítico, AID e base cartográfica com referência espacial. Contudo, o cálculo do Risco Incremental Individual (RII) e a isoconcentração **definitiva** permanecem bloqueados, pois os arquivos de saída real do AERMOD por receptor não foram fornecidos. O arquivo de exemplo presente na workspace (`concentracoes_receptores.example.csv`) contém um único receptor com valor fictício (41 pg TEQ/m³) e **não pode ser utilizado para protocolo**. Adicionalmente, identificou-se inconsistência de distância para o receptor crítico RC-01: a distância declarada no estudo (~1.300 m) difere da distância calculada pelas coordenadas UTM (~870 m), demandando verificação prévia antes do protocolo definitivo.
 
@@ -69,11 +69,11 @@ O status atual do processo é **PRELIMINAR**. Existem doze pendências — oito 
 | 10 | Meteorologia (AERMET) | **PENDENTE** | Arquivo ausente | Fornecer série meteorológica processada em `data/input/meteorologia/`. |
 | 11 | Topografia (AERMAP) | **PENDENTE** | Arquivo ausente | Fornecer DEM processado em `data/input/topografia/`. |
 | 12 | Saída resumida da modelagem atmosférica | **PENDENTE** | Dependente dos itens 10 e 11 | Estrutura gerada; conteúdo real depende de AERMOD, AERMET e AERMAP. |
-| 13 | Limites regulatórios — MP | **BLOQUEANTE** | Arquivo incompleto | Preencher em `data/input/limites-emissao/limites.csv`. Fonte: Parecer Técnico 010/25/IAA/IARS. |
-| 14 | Limites regulatórios — SOx | **BLOQUEANTE** | Arquivo incompleto | Idem item 13. |
-| 15 | Limites regulatórios — NOx | **BLOQUEANTE** | Arquivo incompleto | Idem item 13. |
-| 16 | Limites regulatórios — HCTNM | **BLOQUEANTE** | Arquivo incompleto | Idem item 13. |
-| 17 | Memória de cálculo — MP, SOx, NOx, HCTNM | **BLOQUEANTE** | Dependente dos itens 13–16 | Plano de Emissões bloqueado sem os limites regulatórios. |
+| 13 | Limites regulatórios — MP | **ATENDIDO** | Arquivo preenchido | Valor preenchido em `data/input/limites-emissao/limites.csv`. |
+| 14 | Limites regulatórios — SOx | **ATENDIDO** | Arquivo preenchido | Valor preenchido em `data/input/limites-emissao/limites.csv`. |
+| 15 | Limites regulatórios — NOx | **ATENDIDO** | Arquivo preenchido | Valor preenchido em `data/input/limites-emissao/limites.csv`. |
+| 16 | Limites regulatórios — HCTNM | **BLOQUEANTE** | Arquivo incompleto | Limite permanece sem base normativa consolidada. |
+| 17 | Memória de cálculo — MP, SOx, NOx, HCTNM | **PARCIAL** | Dependente do item 16 | MP, SOx e NOx calculados; HCTNM pendente. |
 | 18 | Receptor crítico declarado (RC-01) | **INCONSISTENTE** | Declarado no estudo | Distância calculada (~870 m) diverge da declarada (~1.300 m). Verificar coordenadas antes do protocolo. |
 
 ### 1.2 Risco Técnico de Protocolar sem Dado Real
@@ -82,7 +82,7 @@ O status atual do processo é **PRELIMINAR**. Existem doze pendências — oito 
 |---|---|---|
 | Isoconcentração sem saída AERMOD real | **CRÍTICO** | Inconsistência documental grave perante CETESB. |
 | RII calculado com dado de exemplo | **CRÍTICO** | Resultado de RII baseado em R001 (41 pg TEQ/m³ de exemplo) pode ser contestado. |
-| Plano de Emissões sem limites preenchidos | **ALTO** | MP, SOx, NOx e HCTNM bloqueados sem Parecer Técnico 010/25/IAA/IARS. |
+| Plano de Emissões sem fechamento integral | **ALTO** | MP, SOx e NOx calculados; HCTNM permanece bloqueado por base normativa pendente. |
 | Receptores sensíveis fictícios | **ALTO** | R002 do arquivo exemplo é explicitamente fictício — inaceitável para CETESB. |
 | Inconsistência de distância RC-01 | **MÉDIO** | Diferença de ~430 m entre distância declarada e calculada afeta avaliação de exposição. |
 | Meteorologia e topografia ausentes | **MÉDIO** | Sem AERMET e AERMAP não é possível reproduzir nem validar a modelagem. |

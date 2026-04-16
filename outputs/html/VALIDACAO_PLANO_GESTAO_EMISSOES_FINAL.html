@@ -3,22 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Validação Técnica — Plano de Gestão de Emissões</title>
+  <title>Validação Executiva — Plano de Gestão de Emissões</title>
   <style>
     :root {
-      --bg: #f4f7fb;
+      --bg: #f3f7fc;
       --card: #ffffff;
       --text: #1f2a37;
       --muted: #5b6878;
-      --line: #d9e1ea;
-      --accent: #0b5cab;
+      --line: #d7e1ec;
+      --accent: #0c4f91;
+      --warn: #9a6700;
+      --danger: #9f1239;
+      --ok: #0f6b3f;
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: "Segoe UI", Tahoma, Arial, sans-serif;
       color: var(--text);
-      background: linear-gradient(180deg, #eef3f9 0%, var(--bg) 100%);
+      background: linear-gradient(180deg, #ecf3fb 0%, var(--bg) 100%);
     }
     .wrap {
       max-width: 980px;
@@ -32,91 +35,243 @@
       padding: 28px;
       box-shadow: 0 6px 24px rgba(12, 35, 64, 0.08);
     }
-    h1, h2, h3 { line-height: 1.25; }
-    h1 { font-size: 30px; margin: 0 0 12px; color: #103b69; }
-    h2 { font-size: 22px; margin-top: 28px; color: var(--accent); border-top: 1px solid var(--line); padding-top: 16px; }
-    h3 { font-size: 18px; margin-top: 20px; }
+    h1, h2 { line-height: 1.25; margin: 0; }
+    h1 { font-size: 30px; color: #103b69; margin-bottom: 8px; }
+    h2 {
+      font-size: 21px;
+      color: var(--accent);
+      margin-top: 24px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+    }
     p, li { font-size: 15px; line-height: 1.65; }
-    ul { padding-left: 22px; }
-    code { background: #eef3f8; padding: 2px 6px; border-radius: 6px; }
-    table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 14px; }
-    th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; }
-    th { background: #f0f5fb; }
-    .meta { color: var(--muted); font-size: 13px; margin-bottom: 16px; }
+    ul { margin: 10px 0 0; padding-left: 22px; }
+    .meta { color: var(--muted); font-size: 13px; margin-bottom: 14px; }
+    .subtitle { color: #38516b; font-size: 16px; margin: 8px 0 0; }
+    .status {
+      margin: 16px 0 8px;
+      padding: 12px 14px;
+      border: 1px solid #f1d18a;
+      background: #fff7e8;
+      border-radius: 10px;
+      color: #6f4b00;
+      font-weight: 600;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .box {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 12px;
+      background: #fbfdff;
+    }
+    .box h3 {
+      margin: 0 0 8px;
+      font-size: 15px;
+    }
+    .risk-high { color: var(--danger); }
+    .risk-med { color: var(--warn); }
+    .ok { color: var(--ok); }
+    .small { font-size: 13px; color: var(--muted); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      overflow: hidden;
+      font-size: 14px;
+      background: #fff;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: #f1f6fc;
+      color: #1e3a5a;
+      font-weight: 600;
+    }
+    tr:last-child td { border-bottom: none; }
+    .pill {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      border: 1px solid transparent;
+    }
+    .pill-high { color: #7f1d1d; background: #fee2e2; border-color: #fecaca; }
+    .pill-med { color: #7c2d12; background: #ffedd5; border-color: #fed7aa; }
+    .pill-low { color: #14532d; background: #dcfce7; border-color: #bbf7d0; }
+    @media (max-width: 780px) {
+      .grid { grid-template-columns: 1fr; }
+      .grid-3 { grid-template-columns: 1fr; }
+      .card { padding: 20px; }
+      h1 { font-size: 25px; }
+    }
   </style>
 </head>
 <body>
   <div class="wrap">
     <div class="card">
-      <div class="meta">Gerado automaticamente a partir de outputs/logs/VALIDACAO_PLANO_GESTAO_EMISSOES_FINAL.md</div>
-      <h1>VALIDACAO TECNICA — PLANO DE GESTAO DE EMISSOES FINAL</h1>
-<p>Data: 2026-04-15</p>
-<p>Documento avaliado: PLANO DE GESTAO DE EMISSOES FINAL.pdf</p>
-<p>Base de evidencia textual: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt</p>
-<h2>Resultado</h2>
-<p>APROVADO COM RESSALVAS (documento de plano de emissao tecnicamente estruturado, com pendencias de consistencia para protocolo definitivo sem diligencia).</p>
-<h2>Itens conformes</h2>
-<p>1. Metodologia de conversao de limite (mg/Nm3) para emissao (kg/h) esta correta.</p>
-<ul>
-<li>Evidencia: Emissao (kg/h) = limite x vazao / 1.000.000 em outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:914.</li>
-</ul>
-<p>2. Regime operacional anual adotado para t/ano esta coerente com 20 h/dia e 300 dias/ano.</p>
-<ul>
-<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:915.</li>
-</ul>
-<p>3. Vazao de referencia utilizada (12.000 Nm3/h) esta explicita e alinhada ao estudo-base.</p>
-<ul>
-<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:917.</li>
-</ul>
-<p>4. Quadro de estimativas de emissao apresenta MP, SOx e NOx com valores fechados em kg/h e t/ano.</p>
-<ul>
-<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:925.</li>
-<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:926.</li>
-<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:927.</li>
-<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:928.</li>
-</ul>
-<p>5. Limites regulatorios listados incluem Dioxinas/Furanos &lt; 0,14 ng/Nm3 e classes de metais.</p>
-<ul>
-<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:1153.</li>
-<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:1155.</li>
-<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:1156.</li>
-<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:1157.</li>
-</ul>
-<h2>Ressalvas e nao conformidades</h2>
-<p>1. ALTA — HCT/HCTNM sem limite regulatorio explicito no quadro principal.</p>
-<ul>
-<li>O quadro de estimativa apresenta HCT com limite &quot;—&quot; e emissao estimada (0,50 kg/h; 3,00 t/ano), sem demonstrar base normativa numerica.</li>
-<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:929.</li>
-<li>Risco: fragilidade de auditabilidade perante CETESB para parametro de hidrocarbonetos.</li>
-</ul>
-<p>2. ALTA — Inconsistencia com a base de calculo do pipeline atual (arquivo oficial de trabalho ainda indica MP/SOx/NOx/HCTNM como pendente).</p>
-<ul>
-<li>Evidencia: outputs/tables/emissoes_calculadas.csv:3.</li>
-<li>Evidencia: outputs/tables/emissoes_calculadas.csv:4.</li>
-<li>Evidencia: outputs/tables/emissoes_calculadas.csv:5.</li>
-<li>Evidencia: outputs/tables/emissoes_calculadas.csv:6.</li>
-<li>Risco: protocolo com documentos divergentes no mesmo processo.</li>
-</ul>
-<p>3. MEDIA — Tabela de &quot;Composto Interesse / Taxa de Alimentacao&quot; usa unidade kg/h para &quot;Dioxinas e furanos&quot; com valor 8,0, o que exige esclarecimento de escopo (alimentacao de teste x emissao de chamine).</p>
-<ul>
-<li>Evidencia: outputs/logs/PLANO_GESTAO_EMISSOES_FINAL_EXTRAIDO.txt:1216.</li>
-<li>Risco: interpretacao equivocada por auditor como taxa de emissao.</li>
-</ul>
-<p>4. MEDIA — Documento nao apresenta modelagem de dispersao (AERMOD/AERMET/AERMAP) nem validacao de RII.</p>
-<ul>
-<li>Observacao: para Plano de Gestao de Emissoes isso pode ser escopo externo, mas para fechamento global do protocolo CETESB segue pendencia no processo.</li>
-<li>Evidencia indireta: ausencia de ocorrencias de AERMOD/AERMET/AERMAP/RII na extracao textual.</li>
-</ul>
-<h2>Recomendacoes objetivas (antes do protocolo)</h2>
-<p>1. Inserir base normativa numerica para HCTNM (ou retirar estimativa e marcar como pendente formal), com referencia do Parecer Tecnico aplicavel.</p>
-<p>2. Harmonizar os arquivos de trabalho do processo: atualizar limites em data/input/limites-emissao/limites.csv e recalcular outputs/tables/emissoes_calculadas.csv para eliminar divergencias.</p>
-<p>3. Rotular explicitamente a tabela de &quot;Taxa de Alimentacao&quot; como ensaio de queima (nao emissao de chamine), com nota de nao comparabilidade direta com limites de emissao.</p>
-<p>4. Manter o Plano como anexo de emissao e preservar em documento separado a validacao de dispersao/RII para fechamento regulatorio final.</p>
-<h2>Decisao tecnica desta validacao</h2>
-<ul>
-<li>Documento de Plano: APROVADO COM RESSALVAS.</li>
-<li>Uso para protocolo definitivo sem ajustes: NAO RECOMENDADO.</li>
-</ul>
+      <h1>Validação Executiva do Plano de Gestão de Emissões</h1>
+      <div class="meta">Síntese regulatória objetiva para decisão de protocolo</div>
+      <p class="subtitle">Documento orientado à tomada de decisão, com foco em aderência regulatória, consistência técnica e prontidão para submissão.</p>
+
+      <div class="status">Classificação atual: APROVADO COM RESSALVAS</div>
+      <p>
+        O plano está tecnicamente estruturado e contém base metodológica consistente para estimativas de emissões.
+        Entretanto, ainda existem pontos críticos de consistência e completude que precisam ser sanados antes do
+        protocolo definitivo para reduzir risco de diligência.
+      </p>
+
+      <h2>Escopo da Avaliação</h2>
+      <div class="grid-3">
+        <div class="box">
+          <h3>Metodologia</h3>
+          <p>Avaliação da coerência entre premissas operacionais, critérios de cálculo e conversões de unidade aplicadas ao plano.</p>
+        </div>
+        <div class="box">
+          <h3>Conformidade</h3>
+          <p>Verificação da aderência aos limites e parâmetros esperados para o licenciamento ambiental do empreendimento.</p>
+        </div>
+        <div class="box">
+          <h3>Prontidão de Protocolo</h3>
+          <p>Análise de lacunas remanescentes que possam gerar exigências complementares, retrabalho ou postergação de decisão.</p>
+        </div>
+      </div>
+
+      <h2>O Que Já Está Adequado</h2>
+      <ul>
+        <li>Metodologia de conversão de limites para taxas de emissão em massa está coerente.</li>
+        <li>Premissas operacionais anuais adotadas são consistentes com o regime informado de operação.</li>
+        <li>Poluentes principais possuem estrutura de apresentação técnica em massa horária e anual.</li>
+        <li>Limites para dioxinas/furanos e classes de metais estão contemplados no escopo técnico.</li>
+      </ul>
+
+      <h2>Diagnóstico de Lacunas Prioritárias</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Ponto Crítico</th>
+            <th>Impacto Regulatório</th>
+            <th>Prioridade</th>
+            <th>Ação Necessária</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Base normativa de hidrocarbonetos totais sem consolidação final numérica</td>
+            <td>Fragiliza rastreabilidade e pode gerar diligência por insuficiência de fundamentação</td>
+            <td><span class="pill pill-high">Alta</span></td>
+            <td>Consolidar referência normativa e ajustar a memória de cálculo para rastreio integral</td>
+          </tr>
+          <tr>
+            <td>Divergência potencial entre versões e artefatos técnicos do processo</td>
+            <td>Risco de inconsistência documental no ato de protocolo</td>
+            <td><span class="pill pill-high">Alta</span></td>
+            <td>Harmonizar os números finais e manter uma única linha mestra de cálculo</td>
+          </tr>
+          <tr>
+            <td>Possível ambiguidade entre taxa de alimentação de ensaio e taxa de emissão regulatória</td>
+            <td>Pode gerar interpretação equivocada por auditoria externa</td>
+            <td><span class="pill pill-med">Média</span></td>
+            <td>Separar conceitualmente as grandezas, com nota explicativa inequívoca</td>
+          </tr>
+          <tr>
+            <td>Integração formal com avaliação de dispersão/risco ainda não explicitada no fechamento executivo</td>
+            <td>Compromete visão consolidada do dossiê regulatório</td>
+            <td><span class="pill pill-med">Média</span></td>
+            <td>Inserir seção de amarração técnica entre plano de emissões e risco ambiental</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>O Que Falta Para Fechamento Definitivo</h2>
+      <ul>
+        <li><span class="risk-high">Alta prioridade:</span> consolidar base normativa explícita para hidrocarbonetos totais e eliminar estimativa sem referência regulatória numérica.</li>
+        <li><span class="risk-high">Alta prioridade:</span> harmonizar todos os artefatos técnicos para evitar divergência entre versões de cálculo no processo de licenciamento.</li>
+        <li><span class="risk-med">Média prioridade:</span> esclarecer, de forma inequívoca, a diferença entre taxa de alimentação de ensaio e taxa de emissão de chaminé.</li>
+        <li><span class="risk-med">Média prioridade:</span> manter vinculação formal entre este plano e a validação de dispersão/risco para fechamento global do dossiê.</li>
+      </ul>
+
+      <h2>Risco Regulatório Residual</h2>
+      <div class="grid">
+        <div class="box">
+          <h3 class="risk-high">Risco de Diligência</h3>
+          <p>Elevado se permanecerem parâmetros sem base normativa numérica explícita ou inconsistências entre documentos do mesmo processo.</p>
+        </div>
+        <div class="box">
+          <h3 class="risk-med">Risco de Interpretação</h3>
+          <p>Moderado enquanto houver possibilidade de confusão entre grandezas de ensaio e grandezas de emissão regulatória.</p>
+        </div>
+        <div class="box">
+          <h3 class="ok">Risco Metodológico</h3>
+          <p>Baixo para os itens já estruturados com fórmula, premissas de operação e cálculo em massa.</p>
+        </div>
+        <div class="box">
+          <h3>Posicionamento Recomendado</h3>
+          <p>Submeter versão final apenas após saneamento dos quatro pontos pendentes para reduzir retrabalho e exigências complementares.</p>
+        </div>
+      </div>
+
+      <h2>Plano de Ação Recomendado</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Janela</th>
+            <th>Entregável Esperado</th>
+            <th>Resultado de Controle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Curto prazo (imediato)</td>
+            <td>Fechamento normativo e revisão de coerência entre grandezas técnicas</td>
+            <td>Eliminação de ambiguidade e base de cálculo unificada</td>
+          </tr>
+          <tr>
+            <td>Curto prazo (sequencial)</td>
+            <td>Reconciliação completa entre texto executivo, tabelas e premissas do plano</td>
+            <td>Consistência documental integral para auditoria</td>
+          </tr>
+          <tr>
+            <td>Pré-protocolo</td>
+            <td>Consolidação final do dossiê com ligação explícita entre emissões e risco</td>
+            <td>Prontidão técnica para submissão sem ressalvas</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Critérios de Aceite para Protocolo Definitivo</h2>
+      <ul>
+        <li>Todos os parâmetros críticos com base normativa explícita e auditável.</li>
+        <li>Ausência de divergência entre versões de cálculo e narrativa técnica.</li>
+        <li>Separação clara entre variáveis operacionais de ensaio e emissão regulatória.</li>
+        <li>Encadeamento técnico completo entre plano de emissões e avaliação de risco do empreendimento.</li>
+      </ul>
+      <p class="small">
+        Quando os critérios acima estiverem integralmente atendidos, a classificação pode evoluir de “aprovado com ressalvas” para “aprovado para protocolo definitivo”.
+      </p>
+
+      <h2>Decisão Técnica</h2>
+      <p>
+        O documento pode evoluir para condição de <strong>aprovado para protocolo definitivo</strong> após o ajuste dos itens pendentes.
+        Na forma atual, permanece <strong>aprovado com ressalvas</strong>.
+      </p>
     </div>
   </div>
 </body>
